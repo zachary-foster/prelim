@@ -1,4 +1,4 @@
-```{r}
+```{r, echo =FALSE}
 library(knitcitations)
 ```
 
@@ -70,7 +70,7 @@ DNA filtered from water can be used to detect metazoa, but I wonder if it can be
 At what scale is this possible, if any? 
 can this be used to monitor pathogens, particularly oomycetes?
 
-This study `r citep("10.1101/020800")` proposes this idea that rivers can be used for biodiversity monitoring and tested Eukaryota diversity found in filtered river water.
+This study `citep("10.1101/020800")` proposes this idea that rivers can be used for biodiversity monitoring and tested Eukaryota diversity found in filtered river water.
 However, they did not test what species were present in the watershed.
 
 A possible study design would be to characterize the plant, animal, and soil communities of the smallest watershed size that still produces a perennial stream and see what fraction can be detected in the river. 
@@ -81,7 +81,7 @@ This would work well for oomycetes such as phytophtora ramoum.
 
 ## bibliography
 
-```{r}
+```{r, results='asis', echo = FALSE}
 bibliography()
 ```
 
