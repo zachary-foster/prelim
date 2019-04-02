@@ -1,0 +1,120 @@
+---
+output: 
+  pdf_document: 
+    latex_engine: xelatex
+header-includes:
+- \usepackage[fontsize=10pt]{scrextend}
+geometry: margin=1in
+bibliography: "`r sharedbib::bib_path()`"
+csl: nature.csl
+---
+
+# The coevolution of plant seeds and their microbiome
+
+
+\newpage
+
+## Project Summary
+
+#### Overview
+
+The composition of the microbiome has been shown to be an important factor for the nutrition and defense of plants [@rodriguez2008stress; @arnold2003fungal; @ernst2003endophytic; @bose1947hereditary; @latch1985endophytic; @arachevaleta1989effect; @barker1984effect1; @barker1984effect2; @clay1987effects] and animals [@rosshart2017wild; @hosokawa2006strict].
+Given the immense importance of some of these interactions for basic functions [@ohkuma2003termite], plants and animals are perhaps better thought of as reproducing ecosystems or "super-organisms" [@mendes2011deciphering; @boursnell1950symbiotic], rather than simply hosts for an assortment of symbionts, parasites, and pathogens.
+Plant seeds represent a highly specialized reproductive unit that has evolved to maximize the chance of survival by supplying physical protection and nutrition to a developing embryo.
+If plants are integrated evolutionarily with their symbionts, then seeds might have evolved to incorporate microbial aids to defense and nutrition.
+It is well known that various bacteria, fungi, and oomycetes inhabit seeds and these are often the same members that occur in mature individuals [@nelson2018seed].
+There is also evidence suggesting that seed microbes can be vertically transmitted to the next generation by colonizing the developing seedling [@truyens2015bacterial; @ernst2003endophytic; @boursnell1950symbiotic].
+Furthermore, some of these vertically transmitted microbes have beneficial properties [@johnston2014impact].
+Finally, it has been shown that plants selectivity recruit microbes from the environment and that host genotype affects this ability [@wu1995molecular].
+Given that mature plants have evolved to encourage beneficial microbes, that these microbes occur in seeds, and can probably be transmitted via seeds to the next generation, it seems likely that some plants have co-evolved with a symbiotic microbiome transmitted and conserved via seed.
+If true, this would have important implications for the understanding of seed plants biology and for the selection and treatment of seeds in agriculture.
+
+The primary objective of this proposal is to test for a correlation between the phylogenetic similarity of seed plants and their seed microbiomes, which would be consistent with co-evolution.
+A secondary objective is to characterize the identity, distribution, and diversity of microbes inhabiting seeds of plants in two Long Term Ecological Research (LTER) sites. 
+This will be accomplished by collecting seeds from natural populations of plants and comparing their phylogenetic relatedness to the phylogenetic similarity of their microbial communities while accounting for environmental differences.
+Seeds will be collected from 10 conifer species in the H.J. Andrews LTER site and 10 poaceae species in the Konza Prairie LTER site.
+DNA extracted from seeds will be used to characterize the phylogenetic relationship of the plants using maximum liklihood and the similarity of their microbiomes using metabarcoding, resulting in a pairwise dissimilarity matrix for the plants and another for their microbiomes.
+Associated data such as soil nutrients, micro-climate, and the soil microbiome will be recorded for each plant sampled and used to make a third pairwise dissimilarity matrix.
+Finally, a partial mantel test will be used to test for a correlation between the host phylogenetic dissimilarity matrix and the microbiome dissimilarity matrix, while accounting for environmental factors using the environmental distance matrix.
+Additional analyses will also be conducted, including taxonomic classification of microbes, calculation of alpha and beta diversity indexes, analysis of differential taxon abundance among plant species, and indicator species analysis.
+
+#### Intellectual merit
+
+This study will help to determine how integrated plants are with their microbiome evolutionarily and has the potential to re-frame seed plant biology.
+It will also be one of the few studies to use metabarcoding to reveal the microbial diversity of individual seeds in natural populations, avoiding the reliance on culturing needed in past studies.
+Finally, it will provide valuable information on the microbial diversity in two LTER sites that can inform future studies.
+
+#### Broader impacts
+
+Agriculture will soon have to accommodate population increases, climate change, soil degradation, aquifer depletion, and lower availability of fossil fuels for fertilizer and pesticides.
+Most major food crops are planted by seed and a better understanding of how seed-transmitted microbes function in natural systems can inform what seed treatment strategies are likely to increase food production.
+In particular, if plants are found to co-evolve with their microbiome, the current practice of sterilizing seed might actually be damaging in some cases, similar to how an excessively sterile environment for young humans is now being correlated with disease in later life, such as asthma [@lambrecht2017immunology]. 
+
+\newpage
+
+
+## Project Description
+
+#### Broader impacts
+
+
+#### Species targeted
+
+Species to be studied were selected based on abundance at their respective LTER sites, abundance of seed production, similarity of seasonal times of seed maturity, and a range of inter-species taxonomic similarity.
+Abundance of species at the study sites were determined using publically available datasets describing the LTER sites to be sampled [@mckee2001vascular; @shaw2001long; @hartnet2019plant].
+Seasonal times of seed maturity were determined using species reviews in the USDA Fire Effects Information System (FEIS) database [@tesky1992tsuga1; @tesky1992tsuga2; @cope1992abies; @cope1993abies; @cope2000abies; @uchytil1991pseudotsuga; @uchytil1991picea; @griffith1992picea; @tesky1992thuja; @tollefson1992calocedrus; @tirmenstein1990taxus; @uchytil1988andropogon; @walkup1991sorgastrum; @walkup2010sporobolus; @steinberg2002schizachyrium; @chadwick2003bouteloua; @simonin2000koeleria; @snyder1992sporobolus; @simonin2000elymus].
+All species typically produce mature seeds between August and October, with the majority maturing in September.
+The conifer species typically produce large numbers of cones in intervals of 1-4 years, with little cone production in intervenning years. 
+This poses a challenge to collecting cones from all species in a single year and makes it unlikly that all species can be sampled over a short period of time.
+This will make it more challenging to control for envriomental differences between years.
+Grass species selected are all warm-season grasses that produce seeds yearly between July and September, depending on weather.
+This makes it likly that all grasses can be sampled in a single season.
+
+Conifiers: *Tsuga heterophylla*, *Tsuga mertensiana*, *Abies amabilis*, *Abies procera*, *Abies grandis*, *Pseudotsuga menziesii*, *Picea engelmannii*, *Pinus monticola*, *Thuja plicata*, *Calocedrus decurrens*, *Taxus brevifolia*
+
+Grasses: *andropogon gerardii*, *sorghastrum nutans*, *sporobolus compositus*, *sporobolus heterolepis*, *schizachyrium scoparium*, *bouteloua curtipendula*, *panicum virgatum*, *koeleria macrantha*, *eragrostis spectabilis*, *elymus canadensis*
+
+#### Seed collection techniques
+
+Seed collection techniques chosen are a comprimise between minimizing envrionmental contamination and maximizing seed maturity.
+Ideally seeds would be collected at the instant they are dispersed from the plant, since this is the stage at which they would have their enitre potential microbiome derived from the parent, but have not been exposed to other envriomental microbes.
+However, waiting for a given plant to disperse seeds is not pheasible in a study of this scale, so seeds will be collected when nearly mature.
+
+Cones from conifers will be collected by gloved hands when possible and knocked down using a forestry slingshot and caught when too high.
+Only cones that do not contact the ground will be used, to minimize contamination.
+When possible, cones from each cardnial direction will be sampled and placed in a bag for each direction sampled.
+Enough cones per direction will be sampled to ensure at least 10 large seeds can be extracted, as determined by typical numbers of seeds per cone and dissections of cones in the field.
+Later on same day as collections, seeds will be extracted from cones using steril forceps.
+A single seed will be collected from each cone representing each cardinal direction on each tree and placed individually in small ziplock bags.
+Up to ten seeds from each direction will then be extracted and bulked together per tree, for a total of 40 seeds per tree.
+Therefore each tree will have 4 individule seeds from each cardinal direction and a single bulked sample. 
+
+#### Plant selection
+
+
+\newpage
+
+## Biographical Sketch(es)
+
+## Budget and Budget Justification
+
+#### Konza collecting trip
+
+Site Use: $18/person/day
+Housing Accomodations: $15/person/night
+
+
+#### H.J. Andrews collecting trip
+
+Camping: $5/night/person
+
+Bigshot slingshot: $150
+
+## Current and Pending Support
+
+## Facilities, Equipment and Other Resources
+
+## Data Management Plan
+
+## References Cited
+

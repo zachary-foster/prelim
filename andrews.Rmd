@@ -1,0 +1,76 @@
+
+
+```{r}
+library(readr)
+library(dplyr)
+library(metacoder)
+```
+
+## Andrews
+
+### Recruitment data
+
+```{r}
+occ_data <- read_csv("andrews_data.csv", guess_max = 1000000)
+tax_data <- read_csv("andrews_tax.csv")
+obj <- inner_join(occ_data, tax_data, by = c("SPECIES" = "Taxonomic Code")) %>%
+  parse_tax_data(class_cols = c("Division or Phylum", "Class", "Order", "Family", "Genus", "Species"))
+```
+
+
+```{r}
+obj %>% 
+  filter_taxa(n_obs > 500) %>%
+  heat_tree(node_label = taxon_names, node_size = n_obs, node_color = n_obs)
+```
+
+
+### Species list data
+
+```{r}
+confier_families <- c("PINACEAE", "ARAUCARIACEAE", "PODOCARPACEAE", "SCIADOPITYACEAE", "CUPRESSACEAE", "CEPHALOTAXACEAE", "TAXACEAE")
+spp_data <- read_csv("SA00201_v2_species_data.csv")
+spp_data %>%
+  filter(FAMILY %in% confier_families) %>%
+  filter(ABUNDANCE %in% c("F", "A", "O")) %>%
+  select(FAMILY, GENUS, SPECIES, COMMON, ABUNDANCE)
+```
+
+
+
+## Konza
+
+```{r}
+konza_occ <- read_csv("konza_prairie.csv", guess_max = 1000000)
+konza_tax <- read_csv("konza_prairie_tax.csv")
+obj <- inner_join(konza_occ, konza_tax, by = c("SpeCode" = "code")) %>%
+  parse_tax_data(class_cols = c("family", "genus", "species"), named_by_rank = TRUE)
+```
+
+What are the major grass species
+
+```{r}
+obj %>% 
+  filter_taxa(taxon_names == "poaceae", subtaxa = TRUE) %>%
+  filter_obs("tax_data", RecYear > 2000) %>%
+  heat_tree(node_label = taxon_names, node_size = n_obs, node_color = n_obs)
+```
+
+
+```{r}
+sp_counts <- obj %>% 
+  filter_taxa(taxon_names == "poaceae", subtaxa = TRUE) %>%
+  filter_obs("tax_data", RecYear > 2000) %>%
+  filter_taxa(taxon_ranks == "species") %>%
+  n_obs %>%
+  sort %>%
+  rev
+
+top_ids <- names(sp_counts)[1:15]
+binomials <- obj %>%
+  filter_taxa(!is_root) %>%
+  classifications(sep = " ")
+
+cat(paste(binomials[top_ids], "\n"))
+```
+

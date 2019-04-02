@@ -1,0 +1,59 @@
+---
+title: "Literature Review"
+output: html_document
+bibliography: references.bibtex
+---
+
+
+### @hirsch2012s
+
+Review of arabidopsis microbiome work.
+
+"Soil structure constrains
+bacterial movement, and rhizosphere bacteria
+are recruited from the immediate vicinity of the
+root, although some are bequeathed from pre
+vious generations via the seed. "
+
+
+"The families and genera
+detected have been described previously as
+effective root colonizers; some, including
+Streptomyces, have been detected in seeds."
+
+
+### @nelson2018seed
+
+A review of seed microbiome research.
+
+
+### @truyens2015bacterial
+
+A review of bacterial seed endophyte research.
+
+### @arnold2003fungal
+
+* fungal symbionts isloated from natural population of Theobroma cocoa reduced the severity of a Phytophthora infection when reinoculated in steril seedlings compared with controls.
+* no evidence of vertical transmission of leaf endophytes in Theobroma cocoa
+* symbiont community similarity decreased sharply with distance between trees compared
+* Colleotrichum was the most often found symbiont
+* Mature leafs benifited more from symbionts when challenged with phytophthora
+
+### @hosokawa2006strict
+
+* Study on the importnace of the extracelluar stinkbug hindgut microbes for the fitness of stinkbugs
+* By removing the "symbiont capsule" from the eggs, they found that stinkbugs without symbionts did not hatch well, grew slower, and did not reproduce. 
+* The phyogeny of the stinkbugs and microbes isolated were exactly the same.
+
+### @johnston2014impact
+
+* Planted 3 cultivars of corn in three soils and used TFLRP to compare microbial communities.
+* Found cultivar to have a more important effect than soil
+* Concluded that many microbes were vertically trasmitted from seed.
+
+### @kaga2009rice
+
+* Grew serface-sterilized rice seeds in steril nutrient agar and found endophytes throughout plants. 
+* Indicates that rice seeds have endophytes and that they establish in the seedlings.
+
+## References

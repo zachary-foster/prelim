@@ -13,6 +13,12 @@ Also, Arabidopsis cultivars do not have a natural history.
 
 It would be interesting to compare the rhizobiomes, relatedness, and habitats of a recent plant radiation.
 
+pollenator diversification instead of biome.
+
+south africa.
+
+
+
 
 ## Island biogeography of soil organisms
 
@@ -40,6 +46,14 @@ This could be tested in an observational study of various wild plants with varyi
 
 A possible experimental design would be to take maple semaras, break them in half, sequence the microbiome of one half, plant the other, and sequence the microbiome of the seedling after a few years and compare it to the growth medium community composition. 
 
+
+pine seeds have varying seed sizes. large seed in sugar pines. 
+
+nate is interested in maple phylogeny
+
+combine with the adaptive radiation. 
+
+herbarium specimens. There is a NSF fund for that.
 
 ## 3D spatial distribtuion of soil community diversity
 

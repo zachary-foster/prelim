@@ -1,0 +1,62 @@
+---
+bibliography: references.bibtex
+output:
+  html_document:
+    df_print: paged
+  word_document: default
+  pdf_document: default
+---
+
+## The coevolution of plant seeds and their microbiome
+
+Recently developed methods have revealed an unexpected degree of microbial diversity associated with larger organisms and ecosystems, now commonly referred to as the microbiome.
+The composition of the microbiome has been repeatedly shown to be an important factor for the nutrition and defense of plants [@rodriguez2008stress; @arnold2003fungal] and animals [@rosshart2017wild; @hosokawa2006strict].
+Given the immense importance of some of these interactions for basic functions (e.g. N-fixation in plants and cellulose digestion in termites [@ohkuma2003termite]), plants and animals are perhaps better thought of as reproducing ecosystems or "super-organisms" [@mendes2011deciphering], rather than simply hosts for an assortment of symbionts, parasites, and pathogens.
+How integrated co-occurring organisms are in an evolutionary sense has been a subject of debate long before the importance of the microbiome was known.
+In the 1920's, Frederic Clements popularized the idea that plant ecosystems function as an evolutionary unit with a distinct "life cycle" [@clements1916plant].
+This was later refuted by Henry Gleason and Robert Whittaker who thought of vegetation as a group of loosely interacting individuals [@gleason1926individualistic].
+This latter idea became the dominant paradigm for thinking about interactions between organisms, including hosts and symbionts.
+However, select microbial symbionts and their hosts are much more integrated than co-occurring plants are.
+For example, fungal symbionts were well established in the first land plants 400 million years ago and might have enabled the transition to land by functioning as roots for those nearly rootless plants [@pirozynski1975origin].
+
+Unlike the characterization of plant communities, which typically requires time-consuming surveying and identification, the total assemblage of microbes inhabiting a sample can be determined from DNA extraction and sequencing.
+In combination with increasingly sophisticated computational techniques, this allows for the generation and use of much larger data sets.
+One such technique is amplicon metagenomics or metabarcoding.
+Metabarcoding uses PCR to amplify a standard "barcode" locus from a DNA extract of a mixture of unknown organisms with primers specific to the taxon being studied.
+The amplicons are then sequenced and compared to each other and reference database sequences to infer their identity and  estimate the number of taxa in the original sample.
+When combined with high-throughput sequencing, this technique can produce massive amounts of data with relative ease.
+This technology has already been extensively applied to characterize the microbiomes of humans [@huttenhower2012structure], livestock [@kittelmann2013simultaneous], plants [@lundberg2012defining], and, to a lesser degree, natural systems [@yeoh2017evolutionary].
+
+One subject that has not received nearly as much attention is the microbiome of plant seeds.
+Seeds represent a highly specialized reproductive unit that has evolved to maximize the chance of survival by supplying physical protection and nutrition to a developing embryo.
+Although often overlooked, the seed/seedling stage of a plant's life history is at least as important as its adult stage, since a maladapted adult plant can die after having reproduced, whereas a maladapted seedling cannot.
+Therefore, the seed/seedling stage is under at least as much evolutionary pressure as the adult stage.
+If plants are integrated evolutionarily with their symbionts, then seeds might have evolved to incorporate microbial aids to defense and nutrition.
+It is well known that various bacteria, fungi, and oomycetes inhabit seeds and these are often the same members that occur in mature individuals [@nelson2018seed].
+There is also evidence suggesting that seed microbes can be vertically transmitted to the next generation by colonizing the developing seedling [@truyens2015bacterial].
+Furthermore, some of these vertically transmitted microbes have beneficial properties, such as members of the *Bacillus* genus [@johnston2014impact].
+Finally, it has been shown that plants selectivity recruit members of the microbiome from the surrounding environment and that host genotype affects this ability [@wu1995molecular].
+Given that  mature plants have evolved to encourage beneficial microbes, that these microbes occur in seeds, and can probably be transmitted via seeds to the next generation, it seems likely that some plants have co-evolved with a symbiotic microbiome transmitted and conserved via seed.
+If true, this would have important implications for our understanding of the basic biology of seed plants and for the selection and treatment of seeds in agriculture.
+
+There is a commonly-used method for testing for co-evolution between interacting taxa, typically a host and a parasite/symbiont.
+Phylogenies are constructed for multiple related, but distinct, host-symbiont pairs and compared.
+Congruence between the two trees is considered evidence for a shared evolutionary history, which is consistent with co-evolution [@hosokawa2006strict].
+A similar approach was taken by @yeoh2017evolutionary to look for evidence of co-evolution between rhizosphere microbiomes and vascular plants.
+Instead of comparing phylogenetic distances of hosts to the phylogenetic distances of parasites, the phylogenetic distances of hosts was compared to the dissimilarity of the microbial communities.
+They found a weak, but significant correlation between microbiome composition and host phylogeny.
+Using similar methods, I propose a study to to determine if a correlation exists between the phylogeny of seed-bearing plants and the similarity of their seed microbiomes.
+
+I propose collecting seeds from natural populations of diverse plants and comparing their phylogenetic similarity to their microbiome similarity while accounting for edaphic and climatic differences.
+A phylogenetically representative set of seed-bearing plants would be selected that grow in similar ecosystems.
+Seeds would be collected from natural populations of these plants and associated data such as soil nutrients and climatic data would be recorded.
+DNA would then be extracted from the seeds and used to charcterize the phylogeny and micrbiome of the plants.
+A evolutionary distance matrix would be constructed using Sanger sequences of the rbcL gene.
+The fungal and bacterial microbiome would be characterized by metabarcoding of the ITS1 and 16S genes.
+A dissimilarity matrix of the microbial communities would be constructed using unifrac distances, which take into account the phylogenetic similarity of the microbes [@lozupone2005unifrac].
+Another dissimilarity matrix would be constructed to summarize the environmental variables associated with the hosts.
+Finally, a partial mantel test would be used to test for a correlation between the host phylogentic distance matrix and the microbiome dissimilarity matrix, while accounting for environmental factors using the environmental distance matrix.
+Such a correlation would be consistent with co-evolution and an adaptive seed microbiome.
+
+
+## References

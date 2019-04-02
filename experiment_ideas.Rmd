@@ -1,0 +1,20 @@
+## Is the microbiome heritable?
+
+1) Culture random members of the seed microbiome
+2) Insert plasmids with a custom oligo 
+3) Innoculate steril(?) seed and grow plants through 2 generations.
+4) Use qPCR to test for the presence of the oligo in the seed of the 2nd generation.
+
+
+## Does host phylogeny correlate with seed microbiome?
+
+Can be tested by making a distance matrix of phylogenetic distance and a matrix of communiity dissimilarity and correlating the two using a Procrustes test or mantel test.
+
+Envriromental conditions or seed morphology could be accounted for with a partial mantel test perhpas
+
+The realtive improtance of envrioment and host phylogeny could be assessed using a PERMANOVA of PCA coordinaes. 
+
+## Is the seed microbiom adaptive?
+
+
+## Can the microbiome be controlled by host genotype?
