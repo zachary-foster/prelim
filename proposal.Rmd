@@ -33,14 +33,14 @@ The primary objective of this proposal is to test for a correlation between the 
 A secondary objective is to characterize the identity, distribution, and diversity of microbes inhabiting seeds of plants in two Long Term Ecological Research (LTER) sites. 
 This will be accomplished by collecting seeds from natural populations of plants and comparing their phylogenetic relatedness to the phylogenetic similarity of their microbial communities while accounting for environmental differences.
 Seeds will be collected from 10 conifer species in the H.J. Andrews LTER site and 10 poaceae species in the Konza Prairie LTER site.
-DNA extracted from seeds will be used to characterize the phylogenetic relationship of the plants using maximum liklihood and the similarity of their microbiomes using metabarcoding, resulting in a pairwise dissimilarity matrix for the plants and another for their microbiomes.
+DNA extracted from seeds will be used to characterize the phylogenetic relationship of the plants using maximum likelihood and the similarity of their microbiomes using metabarcoding, resulting in a pairwise dissimilarity matrix for the plants and another for their microbiomes.
 Associated data such as soil nutrients, micro-climate, and the soil microbiome will be recorded for each plant sampled and used to make a third pairwise dissimilarity matrix.
 Finally, a partial mantel test will be used to test for a correlation between the host phylogenetic dissimilarity matrix and the microbiome dissimilarity matrix, while accounting for environmental factors using the environmental distance matrix.
 Additional analyses will also be conducted, including taxonomic classification of microbes, calculation of alpha and beta diversity indexes, analysis of differential taxon abundance among plant species, and indicator species analysis.
 
 #### Intellectual merit
 
-This study will help to determine how integrated plants are with their microbiome evolutionarily and has the potential to re-frame seed plant biology.
+This study will help to determine how integrated plants are with their microbiome evolutionarily and has the potential to inform basic seed plant biology.
 It will also be one of the few studies to use metabarcoding to reveal the microbial diversity of individual seeds in natural populations, avoiding the reliance on culturing needed in past studies.
 Finally, it will provide valuable information on the microbial diversity in two LTER sites that can inform future studies.
 
@@ -55,41 +55,94 @@ In particular, if plants are found to co-evolve with their microbiome, the curre
 
 ## Project Description
 
-#### Broader impacts
+### Broader impacts
+
+
+### Sampling
+
+Two mojor groups of plants will be sampled from two LTER sites: Confiers in the HJ Andrews forest in Oregon and grasses in the Konza prarie in Kansas.
+At each site, 10 species of plant will be sampled, but only the 9 most sucessfully sampled species from each site will be used in the final analysis.
+For each species, 8 plants will be sampled, each at a different part of the site.
+For each plant sampled, 4 individual seeds will be collected and a mixture of 40 seeds.
+The will result in a total of 2 x 9 x 8 x (4 + 1) = 720 samples analyzed out of 800 potentially collected.
 
 
 #### Species targeted
 
 Species to be studied were selected based on abundance at their respective LTER sites, abundance of seed production, similarity of seasonal times of seed maturity, and a range of inter-species taxonomic similarity.
-Abundance of species at the study sites were determined using publically available datasets describing the LTER sites to be sampled [@mckee2001vascular; @shaw2001long; @hartnet2019plant].
+Abundance of species at the study sites were determined using publicly available datasets describing the LTER sites to be sampled [@mckee2001vascular; @shaw2001long; @hartnet2019plant].
 Seasonal times of seed maturity were determined using species reviews in the USDA Fire Effects Information System (FEIS) database [@tesky1992tsuga1; @tesky1992tsuga2; @cope1992abies; @cope1993abies; @cope2000abies; @uchytil1991pseudotsuga; @uchytil1991picea; @griffith1992picea; @tesky1992thuja; @tollefson1992calocedrus; @tirmenstein1990taxus; @uchytil1988andropogon; @walkup1991sorgastrum; @walkup2010sporobolus; @steinberg2002schizachyrium; @chadwick2003bouteloua; @simonin2000koeleria; @snyder1992sporobolus; @simonin2000elymus].
 All species typically produce mature seeds between August and October, with the majority maturing in September.
-The conifer species typically produce large numbers of cones in intervals of 1-4 years, with little cone production in intervenning years. 
-This poses a challenge to collecting cones from all species in a single year and makes it unlikly that all species can be sampled over a short period of time.
-This will make it more challenging to control for envriomental differences between years.
+The conifer species typically produce large numbers of cones in intervals of 1-4 years, with little cone production in intervening years. 
+This poses a challenge to collecting cones from all species in a single year and makes it unlikely that all species can be sampled over a short period of time.
 Grass species selected are all warm-season grasses that produce seeds yearly between July and September, depending on weather.
-This makes it likly that all grasses can be sampled in a single season.
+This makes it likely that all grasses can be sampled in a single season.
+Due to the complexity of sampling multiple species with potentially differing times of seed maturation, it is assumed that it might not be possible to sample all 10, so only the 9 from each group that are sampled most completly will be used for the final analysis.
 
-Conifiers: *Tsuga heterophylla*, *Tsuga mertensiana*, *Abies amabilis*, *Abies procera*, *Abies grandis*, *Pseudotsuga menziesii*, *Picea engelmannii*, *Pinus monticola*, *Thuja plicata*, *Calocedrus decurrens*, *Taxus brevifolia*
+Conifers: *Tsuga heterophylla*, *Tsuga mertensiana*, *Abies amabilis*, *Abies procera*, *Abies grandis*, *Pseudotsuga menziesii*, *Picea engelmannii*, *Pinus monticola*, *Thuja plicata*, *Calocedrus decurrens*, *Taxus brevifolia*
 
-Grasses: *andropogon gerardii*, *sorghastrum nutans*, *sporobolus compositus*, *sporobolus heterolepis*, *schizachyrium scoparium*, *bouteloua curtipendula*, *panicum virgatum*, *koeleria macrantha*, *eragrostis spectabilis*, *elymus canadensis*
+Grasses: *Andropogon gerardii*, *Sorghastrum nutans*, *Sporobolus compositus*, *Sporobolus heterolepis*, *Schizachyrium scoparium*, *Bouteloua curtipendula*, *Panicum virgatum*, *Koeleria macrantha*, *Eragrostis spectabilis*, *Elymus canadensis*
+
+
+#### Site and plant selection
+
+Sites to sampled will be selected to strike a balance between maximizing envrionmental heterogenetity amoung sites and maximizing number of target species present per site.
+Differences in envrioment is needed to differentiate between diffential selection of microbes from the envrionment versus an adaptive seed microbiome. 
+By contrast, having many target species in the same site allows for envrioment to be controlled, in order to best detect differences in community structure that correlate to plant type, whatever their cause.
+
+Sampling sites at HJ Andrews will be selected ahead of time using existing pre-existing datasets containing tree species and locations in research plots.
+Sampling sites at Konza will be randomly selected from a larger set of sites along one or more random transects that meet the site criteria described above.
 
 #### Seed collection techniques
 
-Seed collection techniques chosen are a comprimise between minimizing envrionmental contamination and maximizing seed maturity.
-Ideally seeds would be collected at the instant they are dispersed from the plant, since this is the stage at which they would have their enitre potential microbiome derived from the parent, but have not been exposed to other envriomental microbes.
-However, waiting for a given plant to disperse seeds is not pheasible in a study of this scale, so seeds will be collected when nearly mature.
+Seed collection techniques chosen are a compromise between minimizing environmental contamination and maximizing seed maturity.
+Ideally seeds would be collected at the instant they are dispersed from the plant, since this is the stage at which they would have their entire potential microbiome derived from the parent, but have not been exposed to other environmental microbes.
+However, waiting for a given plant to disperse seeds is not feasible in a study of this scale, so seeds will be collected when nearly mature.
 
 Cones from conifers will be collected by gloved hands when possible and knocked down using a forestry slingshot and caught when too high.
 Only cones that do not contact the ground will be used, to minimize contamination.
-When possible, cones from each cardnial direction will be sampled and placed in a bag for each direction sampled.
+When possible, cones from each cardinal direction will be sampled and placed in a bag for each direction sampled.
 Enough cones per direction will be sampled to ensure at least 10 large seeds can be extracted, as determined by typical numbers of seeds per cone and dissections of cones in the field.
-Later on same day as collections, seeds will be extracted from cones using steril forceps.
-A single seed will be collected from each cone representing each cardinal direction on each tree and placed individually in small ziplock bags.
+Later, on same day as collections, seeds will be extracted from cones using sterile forceps.
+A single seed will be collected from each cone representing each cardinal direction on each tree and placed individually in small zip-lock bags.
 Up to ten seeds from each direction will then be extracted and bulked together per tree, for a total of 40 seeds per tree.
-Therefore each tree will have 4 individule seeds from each cardinal direction and a single bulked sample. 
+Therefore each tree will have 4 individual seeds from each cardinal direction and a single bulked sample. 
+All seeds will be frozen within 24 hours of collection.
 
-#### Plant selection
+Grass seedheads will be collected in a way analogous way to cones in conifers.
+Four seedheads per grass cluster will be collected and put in individual bags.
+Later, on same day as collections, seeds will be extracted using sterile forceps.
+A single seed will be collected from each head and placed individually in small ziplock bags.
+Up to ten seeds from each head will then be extracted and bulked together per sampled site, for a total of 40 seeds per site.
+All seeds will be frozen within 24 hours of collection.
+
+
+#### Envriomental data
+
+Various indicators of environmental conditions will be measured for each plant sampled in order to best approximate envrionmental condtions that might influence the seed microbiome.
+In the context of the seed, anything outside of the seed, including the surrounding plant tissue, can be considered the envrioment.
+Although it is not possible the fully capture the complexity of the environment, the following aspects will be recorded to approximate envrionmental differences:
+
+* A smaple of tissue near each cone/grasshead and vasular tissue leading to the cone/grasshead will be collected with gloves and bulked per plant. The plant tissue will not be surfaced sterilized, so that microbes that colonize the plant surface from air or precipitation will be present, as well as endophytes.
+* A soil sample will be collected for each plant, composed of four 1x20cm soil cores taken in cardinal directions around the plant and bulked and well mixed.
+* The elevation, slope, aspect of the slope, and convexity of the landscape will be recorded for each plant by mapping the GPS locations of plants sampled onto topographic data.
+* Statistics summarizing weather in the two years precceding the time each plant was sampled will be looked up from public databases. This will only be relevant if all plants cannot be sampled in the same year. A two year period was chosen since some of the conifer species take two years to produce mature cones.  
+
+Plant tissue and soil samples will be subjected to metabarcoding in the same way as seeds, except they will be allowed more sequencing space to characterize their more complex communities effectivly. 
+Aspects relating to climate will not be considered, since this is assumed to be effectivly the same withing each LTER site suring the study period and the two LTER sites are not being compared to eachother.
+
+
+#### Metabarcoding
+
+
+#### Hypotheses
+
+For any given microbal taxon present in the envrionment, the following types of interactions are possible:
+
+1. The microbal taxon is not found in the seeds of vascular plants.
+2. The microbal taxon randomy occurs in a subset of seeds and its occurance is little influenced by plant physiology. These would generally be thought of as surface contamination or opportunistic pathogens.  
+3. The microbal taxon occurs regulary in seeds and its frequency of occurance is determined by interactions between plant and microbe physiology. Evolution might select for certain interactions, but selection pressures on plants and the microbal taxon are mostly independent and any mutualisms formed are temporary and interchangable. Such microbes are opputunistic symbionts, with effects on the host that drift between positive and negative and time and conditions change. 
+4. The microbal taxon is effectivly vertically transmitted and coevolves with the plant and selection pressure on the host and the microbes is linked. The lifestyle of these microbes might range from obligate pathogens to mutulaists.
 
 
 \newpage
@@ -101,7 +154,7 @@ Therefore each tree will have 4 individule seeds from each cardinal direction an
 #### Konza collecting trip
 
 Site Use: $18/person/day
-Housing Accomodations: $15/person/night
+Housing Accommodations: $15/person/night
 
 
 #### H.J. Andrews collecting trip
