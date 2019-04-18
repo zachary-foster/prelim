@@ -68,7 +68,7 @@ It is well known that various bacteria, fungi, and oomycetes inhabit seeds and t
 There is also evidence suggesting that seed microbes can be vertically transmitted to the next generation by colonizing the developing seedling [@truyens2015bacterial; @ernst2003endophytic; @boursnell1950symbiotic; @bergna2018tomato].
 Furthermore, some of these vertically transmitted microbes have beneficial properties [@johnston2014impact; @bergna2018tomato].
 Finally, it has been shown that plants selectivity recruit microbes from the environment and that host genotype affects this ability [@wu1995molecular; @bergna2018tomato].
-Given that mature plants have evolved to encourage beneficial microbes, that these microbes occur in seeds, and can probably be transmitted via seeds to the next generation, it seems likely that some plants have co-evolved with a symbiotic microbiome transmitted and conserved via seed.
+Given that mature plants have evolved to encourage beneficial microbes, that these microbes occur in seeds, and can be transmitted via seeds to the next generation, it seems likely that some plants have co-evolved with a symbiotic microbiome transmitted and conserved via seed.
 If true, this would have important implications for the understanding of seed plants biology and for the selection and treatment of seeds in agriculture.
 
 The primary objective of this proposal is to test for a correlation between the phylogenetic similarity of seed plants and their seed microbiomes, which would be consistent with co-evolution.
@@ -101,24 +101,31 @@ In particular, if plants are found to co-evolve with their microbiome, the curre
 
 In order for an adaptive seed microbiome maintinaed through vertical trasmission to be possible, the following phenomia must exist:
 
-* Microbes assocaited with plants must provide some benifit to plant health and fecundity.
-* Plant genotype must be able to influence the assotment of microbes present and maintained in plant tissues.
-* Microbes must be present in seed and be able to be vertically transmitted to the next generation relaibly.
+* Microbes assocaited with plants must provide some benifit to plant fitness.
+* Plant genotype must be able to influence the assotment of microbes present and maintained in plant tissues and such effects must be heritable.
+* Microbes must be present in seed or assocaited with seed and be able to be vertically transmitted to the next generation relaibly.
 
-If these three processes coocure in a plant over many generations, then it is possible that the evolution of the plant and its microbiome could become linked and the survival of both depend upon the other.
+If these three processes coocure in a plant over many generations, then it is possible, if not likley, that the evolution of the plant and its microbiome could become linked and the survival of both depend upon the other.
 This could result in the combination of the plant and a subset of its microbiome being effectivly a single organism in an evolutionary sense (i.e. a "holobiont"), just as mitochondria and chloroplasts are now integrated into eukaryotic cells [@sagan1967origin].
 Any microbes evolving along this pattern could be thought of as hertible genetic elements, such as plasmids or plastids.
 The following sections provide evidence that each of these processes do occur in seed plants, at least individually.
 
-#### The effect of microbial symbionts on plant health
+#### Microbial symbionts can have positive effects on plant fitness
 
 
-#### The effect of plant genotype on microbiome
+#### The effect of plant genotype on microbiome ia a heritable trait
+
+Many studies suggest that the genotype of plants has an effect on the composition of thier microbiomes, especially as an interaction with envrionmental factors, although the effect of envrionment alone is usually greater [@vandenkoornhuyse2015importance].
+This greater effect of envrioment on the entire microbial community does preclude the possibilty that specific members of the microbiome are more influnced by genotype, as would be expected of important and coevolving symbionts, since these studies typically analyze the microbiome as whole and do not examine each taxon individually.
+An effect of any size of genotype on the community as a whole indicates that the composition of the community is a heritable trait [@peiffer2013diversity] that can influence plant evolution to the degree that the identity of symbiontic microbes has an effect on plant fitness.
+The classical examples of mychorrizal fungi aiding in phosphorus absorption and rhizobia aiding in nitrogen fixation indicate that specific members can have a large effect, even if most members of the microbiome of these plants is transient and facaltative.
+
+A study on the microbiome of tomatoe seeds indicated that the two clutivars studied had diffetent microbial communites when grown in controled condions in the same soil [@bergna2018tomato].
 
 
-#### Vertical transmission of microbes via seed
+#### Microbes can be vertically transmitted via seed
 
-Evidence is accumulating that microbes present in the seeds of some plant species can innoculate the next generation and thus potentially be sustained indefinitly.
+Evidence is accumulating that microbes present in the seeds of some plant species can innoculate the next generation and thus potentially sustainning the assocaiton indefinitly.
 Although this is not a new observation [@boursnell1950symbiotic], its has rapidly gained attention in the last decade [@nelson2018seed], due to culture-independint technique like metabarcoding revealing unexpectedly diversre communites of symbiotic microbes in other plant organs [@lundberg2012defining].
 In the 1940's, researchers desrbied observing potentially symbiotic fungi being transmitted between generation via propagules on the seed coats of the she-oak *Casuarina equisetifolia* [@bose1947hereditary] and the rock-rose *Helianthemum chamaecistus* [@boursnell1950symbiotic].
 In a 2003 study, authors claim to have demonstrated vertical trasmission of benificial *Stagnospora* species via seed in the reed grass *Phragmites australis* by innoculating steril plants and measuring plant biomass [@ernst2003endophytic]. 
@@ -138,7 +145,7 @@ Most of the research that has been done was based on culturing from surface-ster
 @ganley2006fungal found 16 isolates in 800 surface-sterilized seeds of *Pinus monticola* using culturing on PDA with antibiotics that selected for fungi.
 Putativly benificial *Pseudomonas* and *Rahnella* isolates were found in the seeds of 3 out of 4 trees of *Picea abies* and confirmend by PCR [@cankar2005bacterial].
 
-#### Metabarcoding can avoid the limitations of past research
+#### Metabarcoding can circumvent the limitations of past research
 
 Most research in seed microbes has concluded that many, if not most, seeds are microbe-free.
 However, such obervations would be expected even if that was not true due to the techniques used.
