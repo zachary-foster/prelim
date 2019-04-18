@@ -9,6 +9,48 @@ bibliography: "`r sharedbib::bib_path()`"
 csl: nature.csl
 ---
 
+```{r setup, include=FALSE}
+library(readr)
+library(dplyr)
+library(knitr)
+opts_chunk$set(echo = FALSE, message = FALSE, include = FALSE)
+options(scipen=999) # Stops scientific nottaion form bengin used and breaking latex
+```
+
+```{r}
+estimate_error <- 1.1
+sites <- 2
+species <- 9
+trees <- 8
+seeds <- 4 + 1 # 1 is combined sample
+seed_neg_dna_controls <- 8 
+seed_neg_pcr_controls <- 8 
+seed_mock_controls <- 8
+soil_neg_dna_controls <- 4
+soil_neg_pcr_controls <- 4
+soil_mock_controls <- 4
+plant_neg_dna_controls <- 4
+plant_neg_pcr_controls <- 4
+plant_mock_controls <- 4
+```
+
+
+```{r}
+(seed_samples <- species * trees * seeds * sites)
+(soil_samples <- species * trees * sites)
+(plant_samples <- species * trees * sites)
+(all_controls <- (seed_neg_dna_controls +  
+    seed_neg_pcr_controls +  
+    seed_mock_controls + 
+    soil_neg_dna_controls + 
+    soil_neg_pcr_controls + 
+    soil_mock_controls + 
+    plant_neg_dna_controls + 
+    plant_neg_pcr_controls + 
+    plant_mock_controls) * sites)
+(samples_sequenced <- seed_samples + soil_samples + plant_samples + all_controls)
+```
+
 # The coevolution of plant seeds and their microbiome
 
 
@@ -22,10 +64,10 @@ The composition of the microbiome has been shown to be an important factor for t
 Given the immense importance of some of these interactions for basic functions [@ohkuma2003termite], plants and animals are perhaps better thought of as reproducing ecosystems or "super-organisms" [@mendes2011deciphering; @boursnell1950symbiotic], rather than simply hosts for an assortment of symbionts, parasites, and pathogens.
 Plant seeds represent a highly specialized reproductive unit that has evolved to maximize the chance of survival by supplying physical protection and nutrition to a developing embryo.
 If plants are integrated evolutionarily with their symbionts, then seeds might have evolved to incorporate microbial aids to defense and nutrition.
-It is well known that various bacteria, fungi, and oomycetes inhabit seeds and these are often the same members that occur in mature individuals [@nelson2018seed].
-There is also evidence suggesting that seed microbes can be vertically transmitted to the next generation by colonizing the developing seedling [@truyens2015bacterial; @ernst2003endophytic; @boursnell1950symbiotic].
-Furthermore, some of these vertically transmitted microbes have beneficial properties [@johnston2014impact].
-Finally, it has been shown that plants selectivity recruit microbes from the environment and that host genotype affects this ability [@wu1995molecular].
+It is well known that various bacteria, fungi, and oomycetes inhabit seeds and these are often the same members that occur in mature individuals [@nelson2018seed; @bergna2018tomato].
+There is also evidence suggesting that seed microbes can be vertically transmitted to the next generation by colonizing the developing seedling [@truyens2015bacterial; @ernst2003endophytic; @boursnell1950symbiotic; @bergna2018tomato].
+Furthermore, some of these vertically transmitted microbes have beneficial properties [@johnston2014impact; @bergna2018tomato].
+Finally, it has been shown that plants selectivity recruit microbes from the environment and that host genotype affects this ability [@wu1995molecular; @bergna2018tomato].
 Given that mature plants have evolved to encourage beneficial microbes, that these microbes occur in seeds, and can probably be transmitted via seeds to the next generation, it seems likely that some plants have co-evolved with a symbiotic microbiome transmitted and conserved via seed.
 If true, this would have important implications for the understanding of seed plants biology and for the selection and treatment of seeds in agriculture.
 
@@ -55,16 +97,105 @@ In particular, if plants are found to co-evolve with their microbiome, the curre
 
 ## Project Description
 
+### Background
+
+In order for an adaptive seed microbiome maintinaed through vertical trasmission to be possible, the following phenomia must exist:
+
+* Microbes assocaited with plants must provide some benifit to plant health and fecundity.
+* Plant genotype must be able to influence the assotment of microbes present and maintained in plant tissues.
+* Microbes must be present in seed and be able to be vertically transmitted to the next generation relaibly.
+
+If these three processes coocure in a plant over many generations, then it is possible that the evolution of the plant and its microbiome could become linked and the survival of both depend upon the other.
+This could result in the combination of the plant and a subset of its microbiome being effectivly a single organism in an evolutionary sense (i.e. a "holobiont"), just as mitochondria and chloroplasts are now integrated into eukaryotic cells [@sagan1967origin].
+Any microbes evolving along this pattern could be thought of as hertible genetic elements, such as plasmids or plastids.
+The following sections provide evidence that each of these processes do occur in seed plants, at least individually.
+
+#### The effect of microbial symbionts on plant health
+
+
+#### The effect of plant genotype on microbiome
+
+
+#### Vertical transmission of microbes via seed
+
+Evidence is accumulating that microbes present in the seeds of some plant species can innoculate the next generation and thus potentially be sustained indefinitly.
+Although this is not a new observation [@boursnell1950symbiotic], its has rapidly gained attention in the last decade [@nelson2018seed], due to culture-independint technique like metabarcoding revealing unexpectedly diversre communites of symbiotic microbes in other plant organs [@lundberg2012defining].
+In the 1940's, researchers desrbied observing potentially symbiotic fungi being transmitted between generation via propagules on the seed coats of the she-oak *Casuarina equisetifolia* [@bose1947hereditary] and the rock-rose *Helianthemum chamaecistus* [@boursnell1950symbiotic].
+In a 2003 study, authors claim to have demonstrated vertical trasmission of benificial *Stagnospora* species via seed in the reed grass *Phragmites australis* by innoculating steril plants and measuring plant biomass [@ernst2003endophytic]. 
+For all the above cases, the fungus was thought to colonize the roots and travel up the plant as it grows.
+Many reserachers of grass endophytes belive the endophytes like *Epichole*  inhabiting grasses like *Lolium* to be vertically transmitted via seed and benifical to plant growth [@latch1985endophytic; @an1993relationships; @clay1990fungal; @clay1987effects; @nelson2018seed].
+A recent study of bacterial vertical transmission in tomato found that at least three benifical bacteria species were preserved over two generations via seed [@bergna2018tomato].
+Another recent study found that a core seed micrbiome of at least 8 fungi and bacteria was maintained over three generations of radish, although most of the microbiome was variable [@rezki2018assembly].
+
+#### Endophytes of grasses
+
+
+#### Endophytes of conifers
+
+Much less research has been done on conifer seed endophytes.
+Most of the research that has been done was based on culturing from surface-sterilized seeds, so the results will likely vastly underestimate the true diversity of micrbos that could be vertically-trasmitted.
+@newcombe2018hypothetical reports 41% of seeds collected from *Pinus ponderosa* and *Larix occidentalis* contained one or more endophytes, as determined by culturing surfaced-sterilized seeds on PDA.
+@ganley2006fungal found 16 isolates in 800 surface-sterilized seeds of *Pinus monticola* using culturing on PDA with antibiotics that selected for fungi.
+Putativly benificial *Pseudomonas* and *Rahnella* isolates were found in the seeds of 3 out of 4 trees of *Picea abies* and confirmend by PCR [@cankar2005bacterial].
+
+#### Metabarcoding can avoid the limitations of past research
+
+Most research in seed microbes has concluded that many, if not most, seeds are microbe-free.
+However, such obervations would be expected even if that was not true due to the techniques used.
+Any microbes that are tightly integreated with thier plant host are unlikly to be culturable, such as obligate pathogens or symbionts.
+Therefore, studies that rely on culturing microbes from seeds in axenic conditions cannot be used to test for the presence of such microbes or their effect on plant fecundity.
+Additionally, the number of culturable microbes present in seeds decreses in storage [@cankar2005bacterial], so studies that cluture microbes from seeds stored in seed banks or from commercial sources will likley underestime endophyte diversity and abundance.
+Many studies do not report how long seeds were stored between collection and culturing and that information is even less avaialble when the seeds are bought from commerical or govermnet seeds banks.
+Finally, it is common practice to sterilize the outside of the seed in order to insure what is cultured is inside the seed.
+However, a vertically transmitte symbiont does not need to be inside the seed in order to colonize the germinating seedling.
+In fact, some of the earliest observations of seed endophytes report endophytes on the seed coat that colonized the growing plants through the roots after germination [@boursnell1950symbiotic; @bose1947hereditary].
+All of these biases limit the use of most previous research in eveaulating the potential for non-culuturable obligate symbionts in seeds that might occur on the seed coat. 
+Recent adavnced in high-thoughput sequencing now allow these limitations to be overcome, so it is appropriate to revisit the topic of seed endophyte frequency with these new tools. 
+
+#### The holobiont hypothesis
+
+
+### Specific aims
+
+1. Determine which, if any, microbial taxa show patterns of occurance and similarity in confier and grass seeds that are consistent with long-term coevolution with their host, mediated by vertical transmission via seed.
+1. Characterize the bacterial, fungal, and oomycete diveristy assocaited with conifer seeds and grass seeds, including unculturable microbes and microbes on seed coat.
+1. Determine the relative influence of plant species and envrionemnt on the composition of  bacterial, fungal, and oomycete commnities in individule confier and grass seeds, including unculturable microbes and microbes on seed coat.
+1. Provide bacterial, fungal, and oomycete diveristy data for confier and grass seeds, tissues, and assocaited soils for two LTER site that can inform future research.
+
+
+### Hypotheses
+
+For any given microbal taxon, the following lifestyles are possible in regards to seeds:
+
+1. Absent: The taxon does not occur in seeds.
+1. Coincidental: Occurance appears random and does not correlate with either 
+2. Opputunistic: The microbal taxon occurs regulary in seeds and its frequency correlates with a combination of plant species and evironmental factors. Evolution might select for certain interactions, but selection pressures on plants and the microbal taxon are mostly independent and any symbioses formed are temporary and interchangable. Such microbes are opputunistic symbionts, with effects on the host that drift between positive and negative and time and conditions change. 
+3. Obligate: The microbial taxon occurs in a subset of seeds and its occurance correlates with plant species, but it evolves independently. Such microbes are obligate symbionts, but are not vertically transmitted.
+4. Integrated: The microbal taxon is effectivly vertically transmitted and coevolves with the plant and selection pressure on the host and the microbes is linked. The lifestyle of these microbes might range from obligate pathogens to mutulaists.
+
+
+Patterns:
+
+1. Absent: The taxon does not occur in seeds.
+1. Coincidental: Similiarty/occurance of communities of the taxon do not correlate with envrionment or host phylogeny. 
+2. Opputunistic: Similiarty/occurance of communities of the taxon correlate with envrionment, but not host phylogeny.
+3. Obligate: Similiarty/occurance of communities of the taxon correlate with both envrionment and host phylogeny.
+4. Integrated: The microbal taxon is effectivly vertically transmitted and coevolves with the plant and selection pressure on the host and the microbes is linked. The lifestyle of these microbes might range from obligate pathogens to mutulaists.
+
+
+
 ### Broader impacts
 
 
-### Sampling
+### Methods
+
+#### Sampling summary
 
 Two mojor groups of plants will be sampled from two LTER sites: Confiers in the HJ Andrews forest in Oregon and grasses in the Konza prarie in Kansas.
 At each site, 10 species of plant will be sampled, but only the 9 most sucessfully sampled species from each site will be used in the final analysis.
 For each species, 8 plants will be sampled, each at a different part of the site.
 For each plant sampled, 4 individual seeds will be collected and a mixture of 40 seeds.
-The will result in a total of 2 x 9 x 8 x (4 + 1) = 720 samples analyzed out of 800 potentially collected.
+The will result in a total of `r sites` x `r species` x `r trees` x `r seeds` = `r sites * species * trees * seeds` samples analyzed.
 
 
 #### Species targeted
@@ -97,14 +228,14 @@ Sampling sites at Konza will be randomly selected from a larger set of sites alo
 
 Seed collection techniques chosen are a compromise between minimizing environmental contamination and maximizing seed maturity.
 Ideally seeds would be collected at the instant they are dispersed from the plant, since this is the stage at which they would have their entire potential microbiome derived from the parent, but have not been exposed to other environmental microbes.
-However, waiting for a given plant to disperse seeds is not feasible in a study of this scale, so seeds will be collected when nearly mature.
+However, waiting for a given plant to disperse seeds is not feasible in a study of this scale, so seeds will be cnough cones per direction will be sampled to ensure at least 10 large seeds can be extracted, as determined by typical numbers of seeds per cone and dissections of cones in the field.
+Later, on same day as collections, seeds will be extracted from cones using sterile forceps.
+A single seed will be collected from each cone representing each cardinal direcollected when nearly mature.
 
 Cones from conifers will be collected by gloved hands when possible and knocked down using a forestry slingshot and caught when too high.
 Only cones that do not contact the ground will be used, to minimize contamination.
 When possible, cones from each cardinal direction will be sampled and placed in a bag for each direction sampled.
-Enough cones per direction will be sampled to ensure at least 10 large seeds can be extracted, as determined by typical numbers of seeds per cone and dissections of cones in the field.
-Later, on same day as collections, seeds will be extracted from cones using sterile forceps.
-A single seed will be collected from each cone representing each cardinal direction on each tree and placed individually in small zip-lock bags.
+Etion on each tree and placed individually in small zip-lock bags.
 Up to ten seeds from each direction will then be extracted and bulked together per tree, for a total of 40 seeds per tree.
 Therefore each tree will have 4 individual seeds from each cardinal direction and a single bulked sample. 
 All seeds will be frozen within 24 hours of collection.
@@ -125,25 +256,41 @@ Although it is not possible the fully capture the complexity of the environment,
 
 * A smaple of tissue near each cone/grasshead and vasular tissue leading to the cone/grasshead will be collected with gloves and bulked per plant. The plant tissue will not be surfaced sterilized, so that microbes that colonize the plant surface from air or precipitation will be present, as well as endophytes.
 * A soil sample will be collected for each plant, composed of four 1x20cm soil cores taken in cardinal directions around the plant and bulked and well mixed.
-* The elevation, slope, aspect of the slope, and convexity of the landscape will be recorded for each plant by mapping the GPS locations of plants sampled onto topographic data.
+* The elevation, slope, aspect of the slope, and convexity of the landscape will be recorded for each plant by mapping the GPS locations of plants sampled and comparing it to topographic data.
 * Statistics summarizing weather in the two years precceding the time each plant was sampled will be looked up from public databases. This will only be relevant if all plants cannot be sampled in the same year. A two year period was chosen since some of the conifer species take two years to produce mature cones.  
 
 Plant tissue and soil samples will be subjected to metabarcoding in the same way as seeds, except they will be allowed more sequencing space to characterize their more complex communities effectivly. 
-Aspects relating to climate will not be considered, since this is assumed to be effectivly the same withing each LTER site suring the study period and the two LTER sites are not being compared to eachother.
+Aspects relating to climate will not be considered, since this is assumed to be effectivly the same withing each LTER site during the study period and the two LTER sites are not being compared to eachother.
 
 
 #### Metabarcoding
 
+Metabarcoding of bacterial, fungal, and oomycete communities of seeds and envrionmental samples will be conducted using the Illumina MiSeq sequencer at the Oregon State University Center for Genome Research and Biocomputing (CGRB).
+DNA from seed and other plant tissue samples will be extracted using the Qiagen DNeasy PowerPlant Pro Kit and DNA from soil samples will be extracted using the Qiagen DNeasy PowerSoil Kit.
+Negative DNA extraction controls will be used to account for any contamination.
+Each DNA extract will be used in three different PCR reactions to amplify: the V4 region of the 16S ribosomal gene of bacteria [@walters2016improved], the ITS1 region of fungi, and the Rps10 gene of oomycetes.
+The products of these three reactions will then be pooled per-sample in the following proportions: 50%, 40%, 10% for bacteria, fungi, and oomycetes respectivly, so the sequencing effort roughly corresponds to expected organismal diversity.
+Negative PCR controls will be used for all reactions, in addition to the negative DNA extraction controls to help determine the source and content of any contamination that might occur.
+Multiple identical mock community samples composed of a mixture known bacterial, fungal, and oomycete DNA extracts will also be amplified with each reaction as a positive control and in order to asses errors rates of sequence identification and realative abundance.   
+For each LTER site, `r species * trees * seeds` seed PCR products will be sequenced with `r seed_neg_dna_controls` negative DNA extraction controls, `r seed_neg_pcr_controls` negative PCR controls, and `r seed_mock_controls` mock community samples, divided into four 96-well plates containing such that each plate contains an equal number of samples and controls.
+All of the seed samples and assocaited controls will be sequenced on a single MiSeq run for each LTER site.
+Similarly, all plant tissue and soil samples will be sequenced on a single MiSeq run, together with 4 negative DNA extraction controls, 4 negative PCR controls, and four mock communities, for each LTER site.
+Overall `r samples_sequenced` samples will be sequenced on four 300bp paired-end miseq runs.
 
-#### Hypotheses
 
-For any given microbal taxon present in the envrionment, the following types of interactions are possible:
+#### Data preparation
 
-1. The microbal taxon is not found in the seeds of vascular plants.
-2. The microbal taxon randomy occurs in a subset of seeds and its occurance is little influenced by plant physiology. These would generally be thought of as surface contamination or opportunistic pathogens.  
-3. The microbal taxon occurs regulary in seeds and its frequency of occurance is determined by interactions between plant and microbe physiology. Evolution might select for certain interactions, but selection pressures on plants and the microbal taxon are mostly independent and any mutualisms formed are temporary and interchangable. Such microbes are opputunistic symbionts, with effects on the host that drift between positive and negative and time and conditions change. 
-4. The microbal taxon is effectivly vertically transmitted and coevolves with the plant and selection pressure on the host and the microbes is linked. The lifestyle of these microbes might range from obligate pathogens to mutulaists.
+The entire data analysis, from raw MiSeq reads to publication figures, will be conducted in R using a powerful desktop computer.
+Sequence quality filtering, infferece of Extact sequence variants (ESVs), read mearging, chimera removal, and taxonomy assignment will be done using the R package `dada2`.
+Standard ecological metircs of diversity such alpha and beta diversity will be calculated for each sample and grouping of samples (e.g. plant species) using the R pacakge `vegan`.
+General data manipulation and plotting of data will be done use the R pacakges `dplyr`, `ggplot2`, `taxa`, and `metacoder`, among others.  
 
+#### Hypothesis testing
+
+
+#### Reproducibility
+
+All analysis code will be written in Rmarkdown in such a way that the entire analysis, from raw reads to publication figures, can be run with a single command.
 
 \newpage
 
@@ -151,17 +298,81 @@ For any given microbal taxon present in the envrionment, the following types of 
 
 ## Budget and Budget Justification
 
+#### DNA extraction
+
+
+```{r}
+(soil_kit_dna_controls <- soil_neg_dna_controls * sites)
+
+(plant_kit_dna_controls <- (seed_neg_dna_controls + plant_neg_dna_controls) * sites)
+
+(soil_kit_rxns <- soil_samples +  soil_kit_dna_controls)
+(plant_kit_rxns <- plant_samples + seed_samples + plant_kit_dna_controls)
+
+soil_kit_price <- 567
+soil_kit_count <- 100
+(soil_kits_needed <- ceiling(soil_kit_rxns / soil_kit_count * estimate_error))
+
+plant_kit_price <- 236
+plant_kit_count <- 50
+(plant_kits_needed <- ceiling(plant_kit_rxns / plant_kit_count * estimate_error))
+```
+
+
+* Qiagen DNeasy PowerSoil Kit (`r soil_kit_count`) x`r soil_kits_needed`: \$`r soil_kit_price * soil_kits_needed`
+* Qiagen DNeasy PowerPlant Pro Kit (`r plant_kit_count`) x`r plant_kits_needed`: \$`r plant_kit_price * plant_kits_needed`
+* Pipette filter tips: ~\$3000
+
+#### PCR
+
+```{r}
+loci <- 3
+
+(all_controls <-  (seed_neg_dna_controls +  
+    seed_neg_pcr_controls +  
+    seed_mock_controls + 
+    soil_neg_dna_controls + 
+    soil_neg_pcr_controls + 
+    soil_mock_controls + 
+    plant_neg_dna_controls + 
+    plant_neg_pcr_controls + 
+    plant_mock_controls) * sites)
+(total_pcr_rxns <- (seed_samples + soil_samples + plant_samples + all_controls) * loci)
+
+rxn_volume <- 15 # 5uL for gel, 8uL for sequencing, 2uL for error
+(rxn_per_kit <- ceiling(500 * 25/15))
+
+(pcr_kits_needed <- ceiling(total_pcr_rxns / rxn_per_kit * estimate_error))
+
+pcr_kit_cost <- 525
+```
+
+
+* KAPA HiFi DNA Polymerase (500 x 25 µL) x `r pcr_kits_needed`: \$`r pcr_kits_needed * pcr_kit_cost`
+* Pipette filter tips: ~\$3000
+* 96 well PCR plates and caps: ~\$300
+
+#### Sequencing
+
+
+* Nextera XT DNA Library Preparation Kit (96) x `r ceiling(samples_sequenced / 96)`: `r ceiling(samples_sequenced / 96) * 2943`
+* Nextera XT Index Kit x 4:  \$`r 918 * 4`
+* MiSeq reagents and run x4: \$`r 1917 * 4`
+
 #### Konza collecting trip
 
-Site Use: $18/person/day
-Housing Accommodations: $15/person/night
+* Site use and housing: \$33/person/day x 60: $2000
+* Transportation: \$1000
 
+#### H.J. Andrews collecting trip(s)
 
-#### H.J. Andrews collecting trip
+* Camping: \$5/night/person x30: $150
+* Transportation: \$200
+* Bigshot slingshot: \$150
 
-Camping: $5/night/person
+#### Personel
 
-Bigshot slingshot: $150
+* Postdoc salery and benifits: $54,000 x 4 years: $216,000
 
 ## Current and Pending Support
 
@@ -170,4 +381,13 @@ Bigshot slingshot: $150
 ## Data Management Plan
 
 ## References Cited
+
+
+
+
+
+
+## Quick notes
+
+* If vertical transmision is a stable process,  you would expect to see groups of related microbial taxa shared amoung related plants rather than the exact same microbial species.
 
