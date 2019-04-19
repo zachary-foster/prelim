@@ -113,11 +113,11 @@ The following sections provide evidence that each of these processes do occur in
 #### Microbial symbionts can have positive effects on plant fitness
 
 
-#### The effect of plant genotype on microbiome ia a heritable trait
+#### The effect of plant genotype on microbiome is a heritable trait
 
 Many studies suggest that the genotype of plants has an effect on the composition of thier microbiomes, especially as an interaction with envrionmental factors, although the effect of envrionment alone is usually greater [@vandenkoornhuyse2015importance].
-This greater effect of envrioment on the entire microbial community does preclude the possibilty that specific members of the microbiome are more influnced by genotype, as would be expected of important and coevolving symbionts, since these studies typically analyze the microbiome as whole and do not examine each taxon individually.
-An effect of any size of genotype on the community as a whole indicates that the composition of the community is a heritable trait [@peiffer2013diversity] that can influence plant evolution to the degree that the identity of symbiontic microbes has an effect on plant fitness.
+This greater effect of envrioment on the entire microbial community does preclude the possibilty that specific members of the microbiome are more influnced by genotype [@lundberg2012defining], as would be expected of important and coevolving symbionts, since these studies typically analyze the microbiome as whole and do not examine each taxon individually.
+An effect of any size of genotype on the community as a whole indicates that the composition of the community is a heritable trait [@peiffer2013diversity] that can influence plant evolution to the degree that the identity of symbiontic  microbes has an effect on plant fitness.
 The classical examples of mychorrizal fungi aiding in phosphorus absorption and rhizobia aiding in nitrogen fixation indicate that specific members can have a large effect, even if most members of the microbiome of these plants is transient and facaltative.
 
 A study on the microbiome of tomatoe seeds indicated that the two clutivars studied had diffetent microbial communites when grown in controled condions in the same soil [@bergna2018tomato].
@@ -144,13 +144,15 @@ Most of the research that has been done was based on culturing from surface-ster
 @newcombe2018hypothetical reports 41% of seeds collected from *Pinus ponderosa* and *Larix occidentalis* contained one or more endophytes, as determined by culturing surfaced-sterilized seeds on PDA.
 @ganley2006fungal found 16 isolates in 800 surface-sterilized seeds of *Pinus monticola* using culturing on PDA with antibiotics that selected for fungi.
 Putativly benificial *Pseudomonas* and *Rahnella* isolates were found in the seeds of 3 out of 4 trees of *Picea abies* and confirmend by PCR [@cankar2005bacterial].
+Considering the limits of the culture-based techniques used in many of these studies, these results suggest that microbes in the seeds of conifers might be common.  
 
 #### Metabarcoding can circumvent the limitations of past research
 
 Most research in seed microbes has concluded that many, if not most, seeds are microbe-free.
 However, such obervations would be expected even if that was not true due to the techniques used.
 Any microbes that are tightly integreated with thier plant host are unlikly to be culturable, such as obligate pathogens or symbionts.
-Therefore, studies that rely on culturing microbes from seeds in axenic conditions cannot be used to test for the presence of such microbes or their effect on plant fecundity.
+It is estimated that only 0.3% of prokaryotes in soil are culturable [@schleifer2004microbial] and it is likly that obligate symbionts are culturable at even lower rates.
+Therefore, studies that rely on culturing microbes from seeds in axenic conditions cannot be used to effectivly test for the presence of such microbes or their effect on plant fitness.
 Additionally, the number of culturable microbes present in seeds decreses in storage [@cankar2005bacterial], so studies that cluture microbes from seeds stored in seed banks or from commercial sources will likley underestime endophyte diversity and abundance.
 Many studies do not report how long seeds were stored between collection and culturing and that information is even less avaialble when the seeds are bought from commerical or govermnet seeds banks.
 Finally, it is common practice to sterilize the outside of the seed in order to insure what is cultured is inside the seed.
@@ -159,15 +161,22 @@ In fact, some of the earliest observations of seed endophytes report endophytes 
 All of these biases limit the use of most previous research in eveaulating the potential for non-culuturable obligate symbionts in seeds that might occur on the seed coat. 
 Recent adavnced in high-thoughput sequencing now allow these limitations to be overcome, so it is appropriate to revisit the topic of seed endophyte frequency with these new tools. 
 
+Metabarcoding is a relativly recent technique to evaluate the diversity of a particular taxon in a DNA extract from samples such as soils and tissues [@taberlet2012towards].
+An varaible region of a gene conserved in a taxon of interest, flanked by conserved regions of DNA, is amplified by PCR using primers that bind to the conserved flanking regions.
+The variable amplicons are then sequenced using high-throughput sequening tools, such as the Illumina MiSeq.
+The resulting sequences are compared with reference databases of curated gene sequences of known identity, such as the Greengenes database of 16S sequences for bacteria [@desantis2006greengenes], the UNITE database of ITS sequences for fungi [@abarenkov2010unite], and PR2 database of SSU sequences for protists [@guillou2012protist].
+The relitive number of amplicons sequences that match each organism can then be used as an estimate of realtive abundance of the gene copies in the sample [@nichols2018minimizing], which somewhate correlates to the abundance of organism in the sample.
+Although metabcaroding has its own set of biases, espicially when used to estimate the relative abundance of organims, it is an incredably sensitive technqie that cirvumvents the limits of culturability and has already revolutionized the understanding of microbial diversity.
+
 #### The holobiont hypothesis
 
 
 ### Specific aims
 
 1. Determine which, if any, microbial taxa show patterns of occurance and similarity in confier and grass seeds that are consistent with long-term coevolution with their host, mediated by vertical transmission via seed.
-1. Characterize the bacterial, fungal, and oomycete diveristy assocaited with conifer seeds and grass seeds, including unculturable microbes and microbes on seed coat.
+1. Dtermine if the differences microbiomes of coocuring plants in these ecosystems correlate with diffrenes in relatedness in thier hosts, as would be consisitent with microbiome sturcutring being a heritable trait.
 1. Determine the relative influence of plant species and envrionemnt on the composition of  bacterial, fungal, and oomycete commnities in individule confier and grass seeds, including unculturable microbes and microbes on seed coat.
-1. Provide bacterial, fungal, and oomycete diveristy data for confier and grass seeds, tissues, and assocaited soils for two LTER site that can inform future research.
+1. Characterize the bacterial, fungal, and oomycete diveristy assocaited with conifer seeds and grass seeds, including unculturable microbes and microbes on seed coat for two LTER site that can inform future research..
 
 
 ### Hypotheses
