@@ -3,7 +3,7 @@ output:
   pdf_document: 
     latex_engine: xelatex
 header-includes:
-- \usepackage[fontsize=10pt]{scrextend}
+- \usepackage[fontsize=11pt]{scrextend}
 geometry: margin=1in
 bibliography: "`r sharedbib::bib_path()`"
 csl: nature.csl
@@ -61,13 +61,13 @@ plant_mock_controls <- 4
 #### Overview
 
 The composition of the microbiome has been shown to be an important factor for the nutrition and defense of plants [@rodriguez2008stress; @arnold2003fungal; @ernst2003endophytic; @bose1947hereditary; @latch1985endophytic; @arachevaleta1989effect; @barker1984effect1; @barker1984effect2; @clay1987effects] and animals [@rosshart2017wild; @hosokawa2006strict].
-Given the immense importance of some of these interactions for basic functions [@ohkuma2003termite], plants and animals are perhaps better thought of as reproducing ecosystems or "super-organisms" [@mendes2011deciphering; @boursnell1950symbiotic], rather than simply hosts for an assortment of symbionts, parasites, and pathogens.
+Given the immense importance of some of these interactions for basic functions [@ohkuma2003termite], plants and animals are perhaps better thought of as reproducing ecosystems or "holobionts" [@mendes2011deciphering; @boursnell1950symbiotic; @vandenkoornhuyse2015importance], rather than simply hosts for an assortment of symbionts, parasites, and pathogens.
 Plant seeds represent a highly specialized reproductive unit that has evolved to maximize the chance of survival by supplying physical protection and nutrition to a developing embryo.
 If plants are integrated evolutionarily with their symbionts, then seeds might have evolved to incorporate microbial aids to defense and nutrition.
 It is well known that various bacteria, fungi, and oomycetes inhabit seeds and these are often the same members that occur in mature individuals [@nelson2018seed; @bergna2018tomato].
 There is also evidence suggesting that seed microbes can be vertically transmitted to the next generation by colonizing the developing seedling [@truyens2015bacterial; @ernst2003endophytic; @boursnell1950symbiotic; @bergna2018tomato].
 Furthermore, some of these vertically transmitted microbes have beneficial properties [@johnston2014impact; @bergna2018tomato].
-Finally, it has been shown that plants selectivity recruit microbes from the environment and that host genotype affects this ability [@wu1995molecular; @bergna2018tomato].
+Finally, it has been shown that plants selectivly recruit microbes from the environment and that host genotype affects this ability [@wu1995molecular; @bergna2018tomato].
 Given that mature plants have evolved to encourage beneficial microbes, that these microbes occur in seeds, and can be transmitted via seeds to the next generation, it seems likely that some plants have co-evolved with a symbiotic microbiome transmitted and conserved via seed.
 If true, this would have important implications for the understanding of seed plants biology and for the selection and treatment of seeds in agriculture.
 
@@ -77,7 +77,7 @@ This will be accomplished by collecting seeds from natural populations of plants
 Seeds will be collected from 10 conifer species in the H.J. Andrews LTER site and 10 poaceae species in the Konza Prairie LTER site.
 DNA extracted from seeds will be used to characterize the phylogenetic relationship of the plants using maximum likelihood and the similarity of their microbiomes using metabarcoding, resulting in a pairwise dissimilarity matrix for the plants and another for their microbiomes.
 Associated data such as soil nutrients, micro-climate, and the soil microbiome will be recorded for each plant sampled and used to make a third pairwise dissimilarity matrix.
-Finally, a partial mantel test will be used to test for a correlation between the host phylogenetic dissimilarity matrix and the microbiome dissimilarity matrix, while accounting for environmental factors using the environmental distance matrix.
+Finally, partial mantel tests will be used to test for a correlation between the host phylogenetic dissimilarity matrix and the microbiome dissimilarity matrix for each microbial taxon, while accounting for environmental factors using the environmental distance matrix.
 Additional analyses will also be conducted, including taxonomic classification of microbes, calculation of alpha and beta diversity indexes, analysis of differential taxon abundance among plant species, and indicator species analysis.
 
 #### Intellectual merit
@@ -99,19 +99,36 @@ In particular, if plants are found to co-evolve with their microbiome, the curre
 
 ### Background
 
-In order for an adaptive seed microbiome maintained through vertical transmission to be possible, the following phenomena must exist:
+In order for an adaptive seed microbiome that is maintained through vertical transmission to be likly, the following phenomena must exist:
 
 * Microbes associated with plants must provide some benefit to plant fitness.
-* Plant genotype must be able to influence the assortment of microbes present and maintained in plant tissues and such effects must be heritable.
-* Microbes must be present in seed or associated with seed and be able to be vertically transmitted to the next generation reliably.
+* Plant genotype must be able to influence the assortment of microbes present in plant tissues.
+* Microbes must be present in seed or associated with seed and be vertically transmitted to the next generation reliably.
 
 If these three processes cooccur in a plant over many generations, then it is possible, if not likely, that the evolution of the plant and its microbiome could become linked and the survival of both depend upon the other.
-This could result in the combination of the plant and a subset of its microbiome being effectively a single organism in an evolutionary sense (i.e. a "holobiont"), just as mitochondria and chloroplasts are now integrated into eukaryotic cells [@sagan1967origin].
-Any microbes evolving along this pattern could be thought of as heritable genetic elements, such as plasmids or plastids.
-The following sections provide evidence that each of these processes do occur in seed plants, at least individually.
+This could result in the combination of the plant and a subset of its microbiome being effectively a single organism in an evolutionary sense (i.e. a "holobiont") [@vandenkoornhuyse2015importance], just as mitochondria and chloroplasts are now integrated into eukaryotic cells [@sagan1967origin].
+Any microbes evolving along this pattern could function as heritable genetic elements, such as plasmids or plastids.
+The following sections provide evidence that each of these processes do occur in seed plants, at least individually, thus justifying the proposed research.
 
 #### Microbial symbionts can have positive effects on plant fitness
 
+It has been long accepted that specific kinds of microbes benifit specific kinds of plants, such as mycorrhizae in land plants enhancing minerals and water absorption [@miller2000arbuscular], rhizobia in legumes provinding fixed nitrogen [@salvagiotti2008nitrogen], and clavicipitaceous endophytes in grasses providing defenses against drought, herbivors, and salt stress [@clay1990fungal].
+Considering that the vast majoritiy of the microbiome and its importance was unknown just decades ago, these iconic examples are probably just a few representatives of a much larger set of mutualisms yet to be discrovered.
+There are also general patterns that suggest this phenomena is wide spread. 
+
+Arbuscular mycorrhiza are thought to have been integral to evolution of land plants, and that relationship has been maintained for 500 million years in the vast majority of land plants [@pirozynski1975origin].
+
+For some species of plants, the microbes they have evolved with are so important that attempts at moving these plants to new habitiats without the assocaited microbes have often been unsuccessful [@vandenkoornhuyse2015importance]. 
+
+@arnold2003fungal innoculated endophyte-free *Theobroma cacao* seedlings with symbionts isolated from a natural population of *Theobroma cacao* and observed at least 50% less mortality after challenging the seedlings with a *Phytophthora* sepcies.
+In one experiment on the effect of an *Acremonium* (the anamorph of Epichloë) endophyte on drought resistance in the grass tall fescue, 75% of plants without the endophyte died from drought while all of the endophyte-infected plants survived [@arachevaleta1989effect].
+In another experiments evaluating the effets of an *Acremonium* endophytes in rye grass on weevil herbivory, endophyte-infected plants were avoided by weevils when un-infected plants were available, less eaten when infected plants were the only food available [@barker1984effect1].
+When weevils layed eggs in both grass types, 55% of larvea survived to the fourth instar on uninfected grass, but none survived on the infected grass [@barker1984effect2].
+In a different experimemnt, the feeding and development of fall armyworms was reduced by the presence of endophytes [@hardy1985fall].
+Such endophyte infections in rye grass and festcue were also found to incrases seed set and germination in some cases [@clay1987effects].
+Similaraly, the ascomycete *Rhabdocline parkeri* was found to inhibit larval matruation of gall midges in Douglas Fir [@carroll1988fungal].
+
+Recent micrbobiome research in seed plants suggests these type of mutualisms are more common than previously thought.
 
 #### The effect of plant genotype on microbiome is a heritable trait
 
@@ -121,7 +138,8 @@ An effect of any size of genotype on the community as a whole indicates that the
 The classical examples of mycorrhizal fungi aiding in phosphorus absorption and rhizobia aiding in nitrogen fixation indicate that specific members can have a large effect, even if most members of the microbiome of these plants is transient and facaltative.
 
 A study on the microbiome of tomato seeds indicated that the two cultivars studied had different microbial communities when grown in controlled conditions in the same soil [@bergna2018tomato].
-
+Also, the similarity of seed endophytes in 5 species of maize and 4 of its wild relative teosinte were found to correlate with the relatedness of the host plant, suggesting coevolution [@johnston2011conservation].
+Another experiment in which two cultivars of maize and its presumed closest relative teosinte were grown on three different soils found that the type of maize grown had a greater effect on TRFLP profiles of root and shoot bacterial communities [@johnston2014impact].
 
 #### Microbes can be vertically transmitted via seed
 
@@ -133,10 +151,13 @@ For all the above cases, the fungus was thought to colonize the roots and travel
 Many researchers of grass endophytes believe the endophytes like *Epichloë*  inhabiting grasses like *Lolium* to be vertically transmitted via seed and beneficial to plant growth [@latch1985endophytic; @an1993relationships; @clay1990fungal; @clay1987effects; @nelson2018seed].
 A recent study of bacterial vertical transmission in tomato found that at least three beneficial bacteria species were preserved over two generations via seed [@bergna2018tomato].
 Another recent study found that a core seed microbiome of at least 8 fungi and bacteria was maintained over three generations of radish, although most of the microbiome was variable [@rezki2018assembly].
+A study vertical trasmission of endophytes in rice found that endophytes present in surface-sterilized seeds were present throughtout developing seedlings that were grown in steril nutrient agar [@kaga2009rice].
+Seeds of a wide variety of maize and its wild releative were also found to contain endophytes a set of endophytes conserved amoung these speices which likly diverged over 8,000 years ago and the assemblage of endophytes seemed to correlate to relatedness of the hos species, suggesting coevolution [@johnston2011conservation].
+Finally, a study in which maize was grown in different soils from unsterlized seed, found that a large portion of the community showed patterns of vertically transmission [@johnston2014impact].
 
 #### Endophytes of grasses
 
-There is a long history of research confirming the presence and benefit of endophytes in grasses.
+There is a long history of research confirming the presence and benefit of endophytes in grasses, as was described in a previous section [@arachevaleta1989effect; @barker1984effect1; @barker1984effect2; @clay1987effects].
 In particular the association of the ascomycete fungus *Epichloë* (teleomorph of *Acremonium*) with the grasses in the *Lolium* and *Festuca* genera has been well studied.
 *Epichloë* is vertically transmitted by seed and can infect entire populations of grass [@clay1990fungal].
 The presence of *Epichloë* in tall fescue has been shown experimentally to increase plant utilization of nitrogen and significantly increase drought resistance [@arachevaleta1989effect].
@@ -149,11 +170,13 @@ Most of the research that has been done was based on culturing from surface-ster
 @newcombe2018hypothetical reports 41% of seeds collected from *Pinus ponderosa* and *Larix occidentalis* contained one or more endophytes, as determined by culturing surfaced-sterilized seeds on PDA.
 @ganley2006fungal found 16 isolates in 800 surface-sterilized seeds of *Pinus monticola* using culturing on PDA with antibiotics that selected for fungi.
 Putatively beneficial *Pseudomonas* and *Rahnella* isolates were found in the seeds of 3 out of 4 trees of *Picea abies* and confirmed by PCR [@cankar2005bacterial].
+A survery of Douglas Fir seeds collected by the US forest service revealed that all seeds had fungal endophytes and 80% of healthy seedlings contained fungi [@bloomberg1966occurrence]. 
+Many seeds contained *Trichoderma viride*, a microbe now used in commerical biocontrol against a wide range of pathogens [@zhihui2008utilization], but was not at the time of the study.
 Considering the limits of the culture-based techniques used in many of these studies, these results suggest that microbes in the seeds of conifers might be common.  
 
 #### Metabarcoding can circumvent the limitations of past research
 
-Most research in seed microbes has concluded that many, if not most, seeds are microbe-free.
+Most research in seed microbes has concluded that many, if not most, plant species have few microbes in their seeds.
 However, such observations would be expected even if that was not true due to the techniques used.
 Any microbes that are tightly integrated with their plant host are unlikely to be culturable, such as obligate pathogens or symbionts.
 It is estimated that only 0.3% of prokaryotes in soil are culturable [@schleifer2004microbial] and it is likely that obligate symbionts are culturable at even lower rates.
@@ -175,6 +198,10 @@ Although metabarcoding has its own set of biases, especially when used to estima
 
 #### The holobiont hypothesis
 
+Traditional conceptions of evolution have attributed competetion with other organisms to be the primary force agent influencing natural selection.
+Therefore, interactions between organisms are concieved to be usually adversarial or neutral, and only rarely mutulistic.
+When Lynn Margulis proposed the endosymbiotic therory in the 1960s [@sagan1967origin], which postulated that organelles like mitochondira and choloroplasts are reduced mutulistic bacteria, she was widly critiziced for contradicting the tenents of neo-darwinism.
+Since then 
 
 ### Specific aims
 
@@ -211,6 +238,16 @@ Patterns:
 ### Methods
 
 #### Sampling summary
+
+Since extended cultivation and breeding under conditions of high nutrient input are thought to potnetially interferr with plant-symbiont interactions, seeds of wild plants will be sampled instead of domesticated crops [@salvagiotti2008nitrogen; @johnson1993can]. 
+If an adaptive seed micrbiome is found in wild plants, then it is likly that such assocaitions can be bred into cultivated plants, even if a history of chemical-intensive agriculture has disrupted such associations in the past [@vandenkoornhuyse2015importance].
+Also, much less research has been done on the seed microbiome of wild plants compared to domesticated plants.
+Therefore, the proposed study will sample wild populations of plants instead of domseticated plants.
+
+Seeds will be collected directly from wild plants instead of relying on seeds stores in seeds banks, such as those from Forestry Service breeding programs, becuase many endophytes in seeds are known to become non-viable in long term storage [@cankar2005bacterial].
+Also, such seeds were likly surface sterilized and there is evidence that many seed-assocaited microbes reside on the seed coat [@boursnell1950symbiotic; @bose1947hereditary; @bloomberg1966occurrence].
+Additionally the intesive use of atrifical fertilizers, pesticides, or auxin to induce premature seed foramtion interfeer with the natural colonization and preservation of endophytes in stored seeds.
+Therefore, seeds will be collected directly from the mother plant an frozen shortly afterwards to get the most accurate represeatnion possible of seed-endophyte evolution in a natural setting.
 
 Two major groups of plants will be sampled from two LTER sites: Conifers in the HJ Andrews forest in Oregon and grasses in the Konza prairie in Kansas.
 At each site, 10 species of plant will be sampled, but only the 9 most successfully sampled species from each site will be used in the final analysis.
