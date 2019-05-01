@@ -113,13 +113,8 @@ The following sections provide evidence that each of these processes do occur in
 #### Microbial symbionts can have positive effects on plant fitness
 
 It has been long accepted that specific kinds of microbes benifit specific kinds of plants, such as mycorrhizae in land plants enhancing minerals and water absorption [@miller2000arbuscular], rhizobia in legumes provinding fixed nitrogen [@salvagiotti2008nitrogen], and clavicipitaceous endophytes in grasses providing defenses against drought, herbivors, and salt stress [@clay1990fungal].
-Considering that the vast majoritiy of the microbiome and its importance was unknown just decades ago, these iconic examples are probably just a few representatives of a much larger set of mutualisms yet to be discrovered.
-There are also general patterns that suggest this phenomena is wide spread. 
-
-Arbuscular mycorrhiza are thought to have been integral to evolution of land plants, and that relationship has been maintained for 500 million years in the vast majority of land plants [@pirozynski1975origin].
-
+Arbuscular mycorrhiza are thought to have been integral to survival and evolution of land plants, and that relationship has been maintained for 500 million years in the vast majority of plants [@pirozynski1975origin].
 For some species of plants, the microbes they have evolved with are so important that attempts at moving these plants to new habitiats without the assocaited microbes have often been unsuccessful [@vandenkoornhuyse2015importance]. 
-
 @arnold2003fungal innoculated endophyte-free *Theobroma cacao* seedlings with symbionts isolated from a natural population of *Theobroma cacao* and observed at least 50% less mortality after challenging the seedlings with a *Phytophthora* sepcies.
 In one experiment on the effect of an *Acremonium* (the anamorph of Epichloë) endophyte on drought resistance in the grass tall fescue, 75% of plants without the endophyte died from drought while all of the endophyte-infected plants survived [@arachevaleta1989effect].
 In another experiments evaluating the effets of an *Acremonium* endophytes in rye grass on weevil herbivory, endophyte-infected plants were avoided by weevils when un-infected plants were available, less eaten when infected plants were the only food available [@barker1984effect1].
@@ -127,8 +122,11 @@ When weevils layed eggs in both grass types, 55% of larvea survived to the fourt
 In a different experimemnt, the feeding and development of fall armyworms was reduced by the presence of endophytes [@hardy1985fall].
 Such endophyte infections in rye grass and festcue were also found to incrases seed set and germination in some cases [@clay1987effects].
 Similaraly, the ascomycete *Rhabdocline parkeri* was found to inhibit larval matruation of gall midges in Douglas Fir [@carroll1988fungal].
+Considering that the vast majoritiy of the microbiome and its importance was unknown just decades ago, these iconic examples are probably just a few representatives of a much larger set of mutualisms yet to be discrovered.
 
 Recent micrbobiome research in seed plants suggests these type of mutualisms are more common than previously thought.
+Many studies suggest that the microbes most commonly detected are in genera known to contain beneficial microbes, such as bacillus, streptomyces, and burkholdaria [ ; ; ].
+
 
 #### The effect of plant genotype on microbiome is a heritable trait
 
@@ -198,21 +196,53 @@ Although metabarcoding has its own set of biases, especially when used to estima
 
 #### The holobiont hypothesis
 
-Traditional conceptions of evolution have attributed competetion with other organisms to be the primary force agent influencing natural selection.
+Traditional conceptions of evolution have attributed competetion between individual organisms to be the primary force influencing natural selection and evolution.
 Therefore, interactions between organisms are concieved to be usually adversarial or neutral, and only rarely mutulistic.
 When Lynn Margulis proposed the endosymbiotic therory in the 1960s [@sagan1967origin], which postulated that organelles like mitochondira and choloroplasts are reduced mutulistic bacteria, she was widly critiziced for contradicting the tenents of neo-darwinism.
-Since then 
+Since then, the ensoymbiontic theory has been universally accepted and is now considered one of the great discoveries in biology.
+Her broader assertion that led to the discovery, that mutualism is a more prevalent and important force than competition in evolution, is still not well regarded.
+Fredric Clements popularized similar views about plant ecosystems in the 1920s, describing a plant community typical to a certian envrionment as an integrated "organism" with a predicatable lifecycle, a process now known as ecological sucession [@clements1916plant; @clements1920plant].
+Later, ecologists like Henry Gleason and Robert Whittaker ciricized this idea and gave rise to the modern conception of communities as a largly coencidental collection of competing individuals [@gleason1926individualistic]. 
+Although often regarded as contriversial, these ideas have lead to the theory that the majority of oranisms are not independent, but rather integrated with their microbiomes into evolutionary units termed "holobionts" [@vandenkoornhuyse2015importance].
+
+A holobiont is a set of organisms that function together as a single unit in an evolutionary and ecological sense.
+The force of natural selection on all the constituent organsisms in a holobiont is linked to the extent that natural selection shapes the evolution of each memeber primarily in the context of how it contributes to the entire group.
+Groups in which each memeber cooperates and specilizes in a specific task are favored by natrual selection over groups that are less integrated.
+Examples of this are numerous, yet rarely regarded as such.
+As previously stated, every eukarote is a holobiont: a mutualistic assocaition between various archrea and prokarotes in the form of cell walls, nuclei, mitochondria, and chloroplasts, amoung others.
+Members of this assocaition are so specialized and cooperate so well that they were not even rochonized as being seperate until recently.
+Lichens are holobionts composed of algea and fungi.
+In the lichens whose photobiont is a green aglea, they are holobionts decended from a combintion of holobionts.
+This is also the case for the protist *Euglena*, whose choloropasts are surronded by three membranes, suggesting that they are a combination of a free living protist and a green algae, another eukaryote.
+This kind of iterative specilization and combination of holobionts into organisms of ever greater complexity could be the primary driver of evolutionary innovation and competetion bewteen such units monstly a force of refinement.
+These examples are the extreme case, in which once independent organisms are entirly integrated and inter-dependent, but at some point in their history there must have been an intermendiate stage between independent organsism and intergtrated community. 
+
+The assocaition between "higher" organisms and their microbiome now being revealed by high-throuput sequencing might represent such an intermediate stage in holobiont evolution.
+Animals ranging from cows to termintes rely entirely on their intenstinal microbiome to digest cellulose, their primary food source.
+Seperating the intestinal microbiota from such animals would have the same implications as removing mitochondria from a eukarote.
+The vast majoirty of land plants rely on arbuscular mychorrizea for nutrient and water aborptions.
+It is likly that the hyphea of the ancestors of these fungi functioned as roots in the first land plants.
+Endopytes in the leaves of grasses protect from pathogens, herbivory, and drought stress to the extent that attempts to plant endophyte-free pastures often fail.
+*Rhizobium* fix nitrogen in legumes and *Frankia* in alders.
+In these latter examples, the association is not absolutly nesessary to the survival of each partner, potentially representing an intermediate state bewteen holobiont and coexisting independent organism.
+Do seed plants in general represent such an intermediate stage?
+In other words, is the evolution of seed plants and some of their endophytes linked to the extent that natural selection operates on the assocaition more that the assocaites?
+The study proposed here is desinged to address this question, although answering it will be the work of generations.
 
 ### Specific aims
 
 1. Determine which, if any, microbial taxa show patterns of occurrence and similarity in conifer and grass seeds that are consistent with long-term coevolution with their host, mediated by vertical transmission via seed.
 1. Determine if the differences microbiomes of co-occurring plants in these ecosystems correlate with differences in relatedness in their hosts, as would be consistent with microbiome structuring being a heritable trait.
 1. Determine the relative influence of plant species and environment on the composition of  bacterial, fungal, and oomycete communities in individual conifer and grass seeds, including unculturable microbes and microbes on seed coat.
-1. Characterize the bacterial, fungal, and oomycete diversity associated with conifer seeds and grass seeds, including unculturable microbes and microbes on seed coat for two LTER site that can inform future research..
+1. Characterize the bacterial, fungal, and oomycete diversity associated with conifer seeds and grass seeds, including unculturable microbes and microbes on seed coat for two LTER site that can inform future research.
 
 
 ### Hypotheses
 
+The relationship between each memeber of the microbiome and the host plant will be different, but likly related to its evolutionary history.
+Therefore, this study will attempt to classify each microbial group found into a set of lifestlyes corresponding to hypotheses about the evolutionary implications of such lifestyles.
+Ideally, the groupings of microbes used would be every clade in a true phylogeny of these organisms, but since the exact phylogenetic placement of many microbes is still debated and fragmentary, taxonomy will be used as an approximation of phylogeny.
+At the highest rank of the taxonomy, cellular life, the entire microbiome is tested and at the lowest, individual species are tested.
 For any given microbial taxon, the following lifestyles are possible in regards to seeds:
 
 1. Absent: The taxon does not occur in seeds.
