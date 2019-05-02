@@ -99,6 +99,18 @@ In particular, if plants are found to co-evolve with their microbiome, the curre
 
 ### Background
 
+Recent research into the microbiomes of plants and animals has revealed an amazing level of divseristy of symbiotic microbes.
+The vast majority of these microbes appear to be commensal or mutualistic with their host, contrary to previous assumptions, leading many researchers to reevlaute the realtive importance of mutualism and antagonism in regards to the functioning and evolution of organimisms.
+Many researchers have suggested that the combination of a host and its core microbiome is better thought of as a single entity (a "holobiont") rather than a collection of independent organisms.
+This holobiont model of oganismal biology has led many to reevaluate the best ways of maximizing the health of people and the productivity of crops.
+In human medicine, a feild that once considered steriizty the ultimate good, a diversse gut and skin microbiota is now considered essential to overall health, as is evidenced by the success of probiotic supplements and fecal transplants in comabiting cetrain diseases and the adverse effects of anitbiotics.
+In agricluture, diversity in soils communities and the managmanet of mutulistic micobes is now considered by many to be preferable to relying on steril soils, pesticides, and chemical fertilizers.
+However, perhaps the most important discovery at this point is that previous biological concepts have vastly understimated the complexity of ecological interactions.
+Understanding to what extent groups of symbiotic organisms are interdependent and linked in an evolutionary sense is critical to modeling the effect of curent practices on human health and crop dpructivity.
+
+Perhaps the most direct and understandable way that a host and its microbiome could become integated evolutionary is through stable vertical transmission of microbes from one generation to the next.
+In humans, and presumably other animals, this is thought to be facilitated by passage through the birth canal innoculating the skin and breast milk feeding innoculating the digestive track.
+If a similar process occurs in seed plants, then seeds and fruits would be the vector by which mutlulistic microbes could be maintined across generations.  
 In order for an adaptive seed microbiome that is maintained through vertical transmission to be likly, the following phenomena must exist:
 
 * Microbes associated with plants must provide some benefit to plant fitness.
@@ -107,17 +119,17 @@ In order for an adaptive seed microbiome that is maintained through vertical tra
 
 If these three processes cooccur in a plant over many generations, then it is possible, if not likely, that the evolution of the plant and its microbiome could become linked and the survival of both depend upon the other.
 This could result in the combination of the plant and a subset of its microbiome being effectively a single organism in an evolutionary sense (i.e. a "holobiont") [@vandenkoornhuyse2015importance], just as mitochondria and chloroplasts are now integrated into eukaryotic cells [@sagan1967origin].
-Any microbes evolving along this pattern could function as heritable genetic elements, such as plasmids or plastids.
+Any microbes evolving along this pattern could function as heritable genetic elements, such as plasmids or plastids, and any hosts containing such microbes might be better though of a reproducing ecosystems rather than indepentent organimsms.
 The following sections provide evidence that each of these processes do occur in seed plants, at least individually, thus justifying the proposed research.
 
-#### Microbial symbionts can have positive effects on plant fitness
+#### Microbial symbionts can promote plant fitness
 
 It has been long accepted that specific kinds of microbes benifit specific kinds of plants, such as mycorrhizae in land plants enhancing minerals and water absorption [@miller2000arbuscular], rhizobia in legumes provinding fixed nitrogen [@salvagiotti2008nitrogen], and clavicipitaceous endophytes in grasses providing defenses against drought, herbivors, and salt stress [@clay1990fungal].
 Arbuscular mycorrhiza are thought to have been integral to survival and evolution of land plants, and that relationship has been maintained for 500 million years in the vast majority of plants [@pirozynski1975origin].
 For some species of plants, the microbes they have evolved with are so important that attempts at moving these plants to new habitiats without the assocaited microbes have often been unsuccessful [@vandenkoornhuyse2015importance]. 
-@arnold2003fungal innoculated endophyte-free *Theobroma cacao* seedlings with symbionts isolated from a natural population of *Theobroma cacao* and observed at least 50% less mortality after challenging the seedlings with a *Phytophthora* sepcies.
-In one experiment on the effect of an *Acremonium* (the anamorph of Epichloë) endophyte on drought resistance in the grass tall fescue, 75% of plants without the endophyte died from drought while all of the endophyte-infected plants survived [@arachevaleta1989effect].
-In another experiments evaluating the effets of an *Acremonium* endophytes in rye grass on weevil herbivory, endophyte-infected plants were avoided by weevils when un-infected plants were available, less eaten when infected plants were the only food available [@barker1984effect1].
+In a study in which endophyte-free *Theobroma cacao* seedlings were innoculated with symbionts isolated from a natural population of *Theobroma cacao*, at least 50% less seedling mortality was observed after challenging the seedlings with a *Phytophthora* sepcies [@arnold2003fungal].
+In one experiment on the effect of an *Acremonium* (the anamorph of *Epichloë*) endophyte on drought resistance in the grass tall fescue, 75% of plants without the endophyte died from drought while all of the endophyte-infected plants survived [@arachevaleta1989effect].
+In another experiments evaluating the effets of an *Acremonium* endophytes in rye grass on weevil herbivory, endophyte-infected plants were avoided by weevils when un-infected plants were available and less eaten when infected plants were the only food available [@barker1984effect1].
 When weevils layed eggs in both grass types, 55% of larvea survived to the fourth instar on uninfected grass, but none survived on the infected grass [@barker1984effect2].
 In a different experimemnt, the feeding and development of fall armyworms was reduced by the presence of endophytes [@hardy1985fall].
 Such endophyte infections in rye grass and festcue were also found to incrases seed set and germination in some cases [@clay1987effects].
@@ -125,10 +137,13 @@ Similaraly, the ascomycete *Rhabdocline parkeri* was found to inhibit larval mat
 Considering that the vast majoritiy of the microbiome and its importance was unknown just decades ago, these iconic examples are probably just a few representatives of a much larger set of mutualisms yet to be discrovered.
 
 Recent micrbobiome research in seed plants suggests these type of mutualisms are more common than previously thought.
-Many studies suggest that the microbes most commonly detected are in genera known to contain beneficial microbes, such as bacillus, streptomyces, and burkholdaria [ ; ; ].
+Many studies suggest that the microbes most commonly detected are in genera known to contain beneficial microbes, such as *Bacillus*, *Streptomyces*, *Pseudomonas*, and *Burkholdaria* [@lopez2011endophytic; ; ].
+A study of the bacterial endophytes of the cactus *Mammillaria fraileana* found an isolate of *Azotobacter vinelandii* that fixed nitrogen ~17 more effectivly than the positive control strain *Azospirillum brasilense* [@lopez2011endophytic].
+The same study found other endophytes that were able to solubolize phosphorus and weather rock particles in vitro.
+The combination of nitrogen fixation, phosphorus solubilization and rock weathering by root endophytes are thought to be the reason this cactus can grow on bare rock [@puente2009rock].
 
 
-#### The effect of plant genotype on microbiome is a heritable trait
+#### Plant genotype inlfuences microbiome composition
 
 Many studies suggest that the genotype of plants has an effect on the composition of their microbiomes, especially as an interaction with environmental factors, although the effect of environment alone is usually greater [@vandenkoornhuyse2015importance].
 This greater effect of environment on the entire microbial community does preclude the possibility that specific members of the microbiome are more influenced by genotype [@lundberg2012defining], as would be expected of important and coevolving symbionts, since these studies typically analyze the microbiome as whole and do not examine each taxon individually.
@@ -139,7 +154,7 @@ A study on the microbiome of tomato seeds indicated that the two cultivars studi
 Also, the similarity of seed endophytes in 5 species of maize and 4 of its wild relative teosinte were found to correlate with the relatedness of the host plant, suggesting coevolution [@johnston2011conservation].
 Another experiment in which two cultivars of maize and its presumed closest relative teosinte were grown on three different soils found that the type of maize grown had a greater effect on TRFLP profiles of root and shoot bacterial communities [@johnston2014impact].
 
-#### Microbes can be vertically transmitted via seed
+#### Microbes are present in seeds and can be vertically transmitted
 
 Evidence is accumulating that microbes present in the seeds of some plant species can inoculate the next generation and thus potentially sustaining the association indefinitely.
 Although this is not a new observation [@boursnell1950symbiotic], its has rapidly gained attention in the last decade [@nelson2018seed], due to culture-independent technique like metabarcoding revealing unexpectedly diverse communities of symbiotic microbes in other plant organs [@lundberg2012defining].
@@ -174,10 +189,12 @@ Considering the limits of the culture-based techniques used in many of these stu
 
 #### Metabarcoding can circumvent the limitations of past research
 
-Most research in seed microbes has concluded that many, if not most, plant species have few microbes in their seeds.
-However, such observations would be expected even if that was not true due to the techniques used.
+Much research in seed microbes has concluded that many, if not most, plant species have few microbes in their seeds.
+However, such observations would be expected even if that was not true due to the reliance on culturing to detect microbes.
 Any microbes that are tightly integrated with their plant host are unlikely to be culturable, such as obligate pathogens or symbionts.
 It is estimated that only 0.3% of prokaryotes in soil are culturable [@schleifer2004microbial] and it is likely that obligate symbionts are culturable at even lower rates.
+In a study that examined the seed endopytes of the cactus *Mammillaria fraileana*, no bacteria could be cultured, even after researchers tried many different growth media.
+However a culture-independent techniques used on the same seeds, fluorescent vital staining, indicated that there were at least one million live bacterial cells per gram of live seed tissue [@lopez2011endophytic]. 
 Therefore, studies that rely on culturing microbes from seeds in axenic conditions cannot be used to effectively test for the presence of such microbes or their effect on plant fitness.
 Additionally, the number of culturable microbes present in seeds decreases in storage [@cankar2005bacterial], so studies that culture microbes from seeds stored in seed banks or from commercial sources will likely underestimate endophyte diversity and abundance.
 Many studies do not report how long seeds were stored between collection and culturing and that information is even less available when the seeds are bought from commercial or government seeds banks.
@@ -242,11 +259,11 @@ The study proposed here is desinged to address this question, although answering
 The relationship between each memeber of the microbiome and the host plant will be different, but likly related to its evolutionary history.
 Therefore, this study will attempt to classify each microbial group found into a set of lifestlyes corresponding to hypotheses about the evolutionary implications of such lifestyles.
 Ideally, the groupings of microbes used would be every clade in a true phylogeny of these organisms, but since the exact phylogenetic placement of many microbes is still debated and fragmentary, taxonomy will be used as an approximation of phylogeny.
-At the highest rank of the taxonomy, cellular life, the entire microbiome is tested and at the lowest, individual species are tested.
+For example, at the highest rank of the taxonomy (cellular life) the entire microbiome will be analyzed and at the lowest rank, individual species are analyzed.
 For any given microbial taxon, the following lifestyles are possible in regards to seeds:
 
 1. Absent: The taxon does not occur in seeds.
-1. Coincidental: Occurrence appears random and does not correlate with either 
+1. Coincidental: Taxon occurance appears random 
 2. Opportunistic: The microbial taxon occurs regularly in seeds and its frequency correlates with a combination of plant species and environmental factors. Evolution might select for certain interactions, but selection pressures on plants and the microbial taxon are mostly independent and any symbioses formed are temporary and interchangeable. Such microbes are opportunistic symbionts, with effects on the host that drift between positive and negative and time and conditions change. 
 3. Obligate: The microbial taxon occurs in a subset of seeds and its occurrence correlates with plant species, but it evolves independently. Such microbes are obligate symbionts, but are not vertically transmitted.
 4. Integrated: The microbial taxon is effectively vertically transmitted and co-evolves with the plant and selection pressure on the host and the microbes is linked. The lifestyle of these microbes might range from obligate pathogens to mutualists.
