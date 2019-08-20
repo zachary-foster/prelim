@@ -100,7 +100,7 @@ In particular, if plants are found to co-evolve with their microbiome, the curre
 
 Recent research into the microbiomes of plants and animals has revealed an amazing level of divseristy of symbiotic microbes.
 The vast majority of these microbes appear to be commensal or mutualistic with their host, contrary to previous assumptions, leading many researchers to reevlaute the realtive importance of mutualism and antagonism in regards to the functioning and evolution of organimisms.
-Many researchers have suggested that the combination of a host and its core microbiome is better thought of as a single entity (a "holobiont") rather than a collection of independent organisms.
+Many researchers have suggested that the combination of a host and its core microbiome is better thought of as a single entity (a "holobiont") rather than a collection of independent organisms [@mendes2011deciphering; @boursnell1950symbiotic; @vandenkoornhuyse2015importance; @berg2018saving; @sagan1967origin].
 This holobiont model of oganismal biology has led many to reevaluate the best ways of maximizing the health of people and the productivity of crops [@berg2018saving].
 In human medicine, a feild that once considered steriizty the ultimate good, a diversse gut and skin microbiota is now considered essential to overall health, as is evidenced by the success of probiotic supplements and fecal transplants in comabiting cetrain diseases and the adverse effects of anitbiotics.
 In agricluture, diversity in soils communities and the managmanet of mutulistic micobes is now considered by many to be preferable to relying on steril soils, pesticides, and chemical fertilizers.
@@ -147,14 +147,16 @@ The combination of nitrogen fixation, phosphorus solubilization and rock weather
 Many studies suggest that the genotype of plants has an effect on the composition of their microbiomes, especially as an interaction with environmental factors, although the effect of environment alone is usually greater [@vandenkoornhuyse2015importance].
 This greater effect of environment on the entire microbial community does not preclude the possibility that specific members of the microbiome are more influenced by genotype [@lundberg2012defining], as would be expected of important and coevolving symbionts, since these studies typically analyze the microbiome as whole and do not examine each taxon individually.
 An effect of any size of genotype on the community as a whole indicates that the composition of the community is a heritable trait [@peiffer2013diversity] that can influence plant evolution to the degree that the identity of symbiotic  microbes has an effect on plant fitness.
-The classical examples of mycorrhizal fungi aiding in phosphorus absorption and rhizobia aiding in nitrogen fixation indicate that specific members can have a large effect, even if most members of the microbiome of these plants is transient and incidental.
+The classical examples of mycorrhizal fungi aiding in phosphorus absorption and rhizobia aiding in nitrogen fixation indicate that specific members can have a large effect, even if most members of the microbiome of these plants are transient and incidental.
 
 Many stuides on agiricultural plants indicate that even cultivar-level differences in genotype can have significant effects on the compositon of the microbiome.
 A study on the microbiome of tomato seeds indicated that the two cultivars studied had different microbial communities when grown in controlled conditions in the same soil [@bergna2018tomato].
 Also, the similarity of seed endophytes in 5 species of maize and 4 of its wild relative teosinte were found to correlate with the relatedness of the host plant, suggesting coevolution [@johnston2011conservation].
+A similar result was found when comparing the bacterial rhizobiome of wild and cultivated varietes of the common bean *Phaseolus vulgaris* [@perez2017linking].
 Another experiment in which two cultivars of maize and its presumed closest relative teosinte were grown on three different soils found that the type of maize grown had a greater effect on TRFLP profiles of root and shoot bacterial communities [@johnston2014impact].
 The microbiome composition of seeds of the Styrian oil pumpkin (*Cucurbita pepo*) were found to be strongly influenced by genotype [@adam2018cucurbita].
-Similalry, the microbiome composition of seeds of rapeseed (*Brassica napus*) differed amoung cultivars and correlated with differences in the effects of innoculations with pathogens and potential symbionts [@rybakova2017structure]. 
+Similalry, the microbiome composition of seeds of rapeseed (*Brassica napus*) differed amoung cultivars and correlated with differences in the effects of innoculations with pathogens and potential symbionts [@rybakova2017structure].
+These and other similar studies suggest that intraspecific genotypic differences can have an effect on the microbial community of the entire plant, including the seeds.  
 
 #### Microbes are present in seeds and can be vertically transmitted
 
@@ -232,31 +234,32 @@ Groups in which each member cooperates and specilizes in a specific task are fav
 This is similar to how division of labour in human societies leads to increased effeciency. 
 Examples of this are numerous, yet rarely regarded as such.
 As previously stated, every eukarote is a holobiont: a mutualistic assocaition between various archrea and prokarotes in the form of cell walls, nuclei, mitochondria, and chloroplasts, amoung others.
-Members of this assocaition are so specialized and cooperate so well that they were not even recognized as being seperate until recently.
+Members of this assocaition are so specialized and cooperate so well that they were not even recognized as being seperate until recently [@sagan1967origin].
 Lichens are holobionts composed of algea and fungi.
 In the lichens whose photobiont is a green aglea, they are holobionts decended from a combintion of holobionts.
-This is also the case for the protist *Euglena*, whose choloropasts are surronded by three membranes, suggesting that they are a combination of a free living protist and a green algae, another eukaryote.
-This kind of iterative specalization and combination of holobionts into organisms of ever greater complexity could be the primary driver of evolutionary innovation and competetion bewteen such units mostly a force of refinement.
+This is also the case for the protist *Euglena*, whose choloropasts are surronded by three membranes, suggesting that they are a combination of a free living protist and a green algae, another eukaryote [@gibbs1978chloroplasts].
+The same is true of photosynthetic dinoflagellates.
+This kind of nested specalization and combination of holobionts into organisms of ever greater complexity could be the primary driver of evolutionary innovation and competetion bewteen such units mostly a force of refinement [@sagan1967origin].
 These examples are the extreme case, in which once independent organisms are entirly integrated and inter-dependent, but at some point in their history there must have been an intermendiate stage between independent organsism and intergtrated community. 
 
-Certain assocaitions between "higher" organisms and their microbiome, now being revealed by high-throuput sequencing, might represent such an intermediate stage in holobiont evolution.
-Animals ranging from cows to termintes rely entirely on their intenstinal microbiome to digest cellulose, their primary food source.
+Certain assocaitions between multicellular organisms and their microbiome, now being revealed by high-throuput sequencing, might represent such an intermediate stage in holobiont evolution.
+Animals ranging from cows to termintes rely entirely on their intenstinal microbiome to digest cellulose, their primary food source [@ohkuma2003termite].
 Seperating the intestinal microbiota from such animals would have the same implications as removing mitochondria from a eukarote.
-The vast majoirty of land plants rely on arbuscular mychorrizea for nutrient and water aborptions.
-It is likly that the hyphea of the ancestors of these fungi functioned as roots in the first land plants.
-Endopytes in the leaves of grasses protect from pathogens, herbivory, and drought stress to the extent that attempts to plant endophyte-free pastures often fail.
+The vast majoirty of land plants associate with arbuscular mychorrizea for nutrient and water aborptions.
+It is likly that the hyphea of the ancestors of these fungi functioned as roots in the first land plants, enabling the transition from water to land [@pirozynski1975origin].
+Endopytes in the leaves of grasses protect from pathogens, herbivory, and drought stress to the extent that attempts to plant endophyte-free pastures often fail [@clay1990fungal; @arachevaleta1989effect].
 *Rhizobium* fix nitrogen in legumes and *Frankia* in alders.
-In these latter examples, the association is not absolutly nesessary to the survival of each partner, potentially representing an intermediate state bewteen holobiont and coexisting independent organisms.
-Do seed plants in general represent such an intermediate stage?
-In other words, is the evolution of seed plants and some of their endophytes linked to the extent that natural selection operates on the assocaition more that the assocaites?
-The study proposed here is desinged to address this question, although answering it will be the work of generations.
+In these latter examples, the association is not absolutly nesessary to the survival of each partner, potentially representing an intermediate state bewteen a holobiont and coexisting independent organisms.
+Do some seed plants represent such an intermediate stage?
+In other words, is the evolution of seed plants and some of their endophytes linked to the extent that natural selection operates on the assocaition as a whole?
+The study proposed here is desinged to address this question.
 
 ### Specific aims
 
 1. Determine which, if any, microbial taxa show patterns of occurrence and similarity in conifer and grass seeds that are consistent with long-term coevolution with their host, mediated by vertical transmission via seed.
 1. Determine if the differences in the microbiomes composition of co-occurring plants in these ecosystems correlate with differences in relatedness in their hosts, as would be consistent with microbiome structuring being a heritable trait.
 1. Determine the relative influence of plant species and environment on the composition of bacterial, fungal, and oomycete communities in individual conifer and grass seeds, including unculturable microbes and microbes on seed coat.
-1. Characterize the bacterial, fungal, and oomycete diversity associated with conifer seeds and grass seeds, including unculturable microbes and microbes on seed coat for two LTER site that can inform future research and conservation.
+1. Characterize the bacterial, fungal, and oomycete diversity associated with conifer seeds and grass seeds, including unculturable microbes and microbes on seed coat for two LTER site that can inform future research and conservation practices.
 
 
 ### Hypotheses
@@ -264,23 +267,24 @@ The study proposed here is desinged to address this question, although answering
 The relationship between each member of the microbiome and the host plant will be different, but likly related to its evolutionary history.
 Therefore, this study will attempt to classify each microbial group found into a set of lifestlyes corresponding to hypotheses about the evolutionary implications of such lifestyles.
 Ideally, the groupings of microbes used would be every clade in a true phylogeny of these organisms, but since the exact phylogenetic placement of many microbes is still debated and fragmentary, taxonomy will be used as an approximation of phylogeny.
+Every taxon found, at all taxonomic ranks, will be tested for patterns consistent with coevolution with its host.
 For example, at the highest rank of the taxonomy (cellular life) the entire microbiome will be analyzed and at the lowest rank, individual species are analyzed.
 For any given microbial taxon, the following lifestyles are possible in regards to seeds:
 
-1. Absent: The taxon does not occur in seeds.
-1. Coincidental: Taxon occurance appears random 
-2. Opportunistic: The microbial taxon occurs regularly in seeds and its frequency correlates with a combination of plant species and environmental factors. Evolution might select for certain interactions, but selection pressures on plants and the microbial taxon are mostly independent and any symbioses formed are temporary and interchangeable. Such microbes are opportunistic symbionts, with effects on the host that drift between positive and negative and time and conditions change. 
-3. Obligate: The microbial taxon occurs in a subset of seeds and its occurrence correlates with plant species, but it evolves independently. Such microbes are obligate symbionts, but are not vertically transmitted.
+1. Absent: The taxon does not occur in seeds, but occurs elsewhere.
+1. Coincidental: The taxon occasinally occurs on or in seeds, but only by chance. An example would be organisms deposited by air or rain water. 
+2. Opportunistic: The taxon can assocaite with seeds as part of its lifecycle when conditions are favorable. Evolution might select for certain interactions, but selection pressures on plants and the microbial taxon are mostly independent and any symbioses formed are temporary and interchangeable. Such microbes could be opportunistic symbionts, with effects on the host that vary between positive and negative. 
+3. Associated: The microbial taxon is adapted to live on particular plant species, but it evolves independently. Such microbes might be obligate symbionts, but are not vertically transmitted.
 4. Integrated: The microbial taxon is effectively vertically transmitted and co-evolves with the plant and selection pressure on the host and the microbes is linked. The lifestyle of these microbes might range from obligate pathogens to mutualists.
 
 
-Patterns:
+To classify each taxon into one of these categories, the following hypotheses will be tested:
 
-1. Absent: The taxon does not occur in seeds.
-1. Coincidental: Similarity/occurrence of communities of the taxon do not correlate with environment or host phylogeny. 
-2. Opportunistic: Similarity/occurrence of communities of the taxon correlate with environment, but not host phylogeny.
-3. Obligate: Similarity/occurrence of communities of the taxon correlate with both environment and host phylogeny.
-4. Integrated: The microbial taxon is effectively vertically transmitted and co-evolves with the plant and selection pressure on the host and the microbes is linked. The lifestyle of these microbes might range from obligate pathogens to mutualists.
+1. Absent: The taxon does not occur in seeds, but occurs in envrionmental samples or other plant tissue.
+1. Coincidental: The taxon occurs in a subset of seeds and the similarity/occurrence of communities of the taxon in seeds do not correlate with environment or host phylogeny. 
+2. Opportunistic: The taxon occurs in a subset of seeds and the similarity/occurrence of communities of the taxon in seeds correlate with environment, but not host phylogeny.
+3. Associated: The taxon occurs in a subset of seeds and the similarity/occurrence of communities of the taxon in seeds correlate with both environment and host phylogeny.
+4. Integrated: The taxon occurs in nearly all seeds and the similarity/occurrence of communities of the taxon in seeds correlate with host phylogeny, but not environment.
 
 
 
@@ -389,14 +393,32 @@ Similarly, all plant tissue and soil samples will be sequenced on a single MiSeq
 Overall `r samples_sequenced` samples will be sequenced on four 300bp paired-end miseq runs.
 
 
+#### Phylogenetic distance estimation
+
+A selection of genes useful for phylogenetic recontruction of each of the two groups of organisms, conifers and poaceae, will be amplified from the seed DNA extracts and sequenced using cloning and Sanger sequencing.
+Such genes will likly include LFY and NLY for confiers [@lu2014phylogeny] and matK and ndhF for poaceae [@soreng2015worldwide].
+A multiple sequence alignment will be made for each gene and a maximum likliehood phylogeny will be inferred using RAxML [@stamatakis2014raxml] using a nucelotide substitution model determined using jModelTest2 [@darriba2012jmodeltest]. 
+A pairwise distance matrix for each gene will be made by calculating the of the sum of the branch lengths connecting every pair of species in the phylogeny.
+This method of calculating phylogentic distance was chosen because it is conceptually very similar to how the microbial community distance matrix will be calculated using the Unifrac method [@lozupone2005unifrac].
+Finally the overall phylogentic distance matrix will be made by taking the average of the per-gene distance matracies.
+This will be the phylogentic distance matrix that will be compared with the micorbiome and envrionmental distance matracies.
+
 #### Data preparation
 
 The entire data analysis, from raw MiSeq reads to publication figures, will be conducted in R using a powerful desktop computer.
-Sequence quality filtering, inference of Exact sequence variants (ESVs), read merging, chimera removal, and taxonomy assignment will be done using the R package `dada2`.
+Sequence quality filtering, inference of Amplified sequence variants (ASVs), read merging, chimera removal, and taxonomy assignment will be done using the R package `dada2`.
+The reference databases UNITE (for fungi), Greengenes (for bacteria), and OomyceteDB (for oomycetes) will be used to assign a taxonomy to ASVs. 
+This will result in an abundance matrix of ASVs per sample.
 Standard ecological metrics of diversity such alpha and beta diversity will be calculated for each sample and grouping of samples (e.g. plant species) using the R package `vegan`.
 General data manipulation and plotting of data will be done use the R packages `dplyr`, `ggplot2`, `taxa`, and `metacoder`, among others.  
 
 #### Hypothesis testing
+
+
+Maximum liklyhood 
+For the community of each taxon, the following tests will be conducted:
+
+* 
 
 Differntial taxon abundance will be calculated using the `DESeq2` package.
 
@@ -487,11 +509,6 @@ pcr_kit_cost <- 525
 
 * Postdoc salery and benifits: $54,000 x 4 years: $216,000
 
-## Current and Pending Support
-
-## Facilities, Equipment and Other Resources
-
-## Data Management Plan
 
 ## References Cited
 
