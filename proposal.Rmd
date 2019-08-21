@@ -256,16 +256,15 @@ The study proposed here is designed to address this question.
 
 ### Specific aims
 
-1. Determine which, if any, microbial taxa show patterns of occurrence and similarity in conifer and grass seeds that are consistent with long-term coevolution with their host, mediated by vertical transmission via seed.
-1. Determine if the differences in the microbiomes composition of co-occurring plants in these ecosystems correlate with differences in relatedness in their hosts, as would be consistent with microbiome structuring being a heritable trait.
-1. Determine the relative influence of plant species and environment on the composition of bacterial, fungal, and oomycete communities in individual conifer and grass seeds, including unculturable microbes and microbes on seed coat.
-1. Characterize the bacterial, fungal, and oomycete diversity associated with conifer seeds and grass seeds, including unculturable microbes and microbes on seed coat for two LTER site that can inform future research and conservation practices.
-
+1. Determine which, if any, microbial taxa show patterns of occurrence and similarity in conifer and grass seeds that are consistent with long-term coevolution with their host.
+1. Determine the relative influence of individual plant, plant species and environment on the composition of bacterial, fungal, and oomycete communities in individual conifer and grass seeds, including unculturable microbes and microbes on the seed coat.
+1. Characterize the bacterial, fungal, and oomycete diversity associated with individual conifer seeds and grass seeds, including unculturable microbes and microbes on seed coat.
+1. Create lists of bacterial, fungal, and oomycete taxa potentially present in two LTER sites that can inform future research and conservation practices.
 
 ### Hypotheses
 
 The relationship between each member of the microbiome and the host plant will be different, but likely related to its evolutionary history.
-Therefore, this study will attempt to classify each microbial group found into a set of lifestyles corresponding to hypotheses about the evolutionary implications of such lifestyles.
+Therefore, this study will attempt to classify each microbial group found into a set of lifestyles corresponding to hypotheses about the patterns of such lifestyles might exhibit.
 Ideally, the groupings of microbes used would be every clade in a true phylogeny of these organisms, but since the exact phylogenetic placement of many microbes is still debated and fragmentary, taxonomy will be used as an approximation of phylogeny.
 Every taxon found, at all taxonomic ranks, will be tested for patterns consistent with coevolution with its host.
 For example, at the highest rank of the taxonomy (cellular life) the entire microbiome will be analyzed and at the lowest rank, individual species are analyzed.
@@ -274,9 +273,8 @@ For any given microbial taxon, the following lifestyles are possible in regards 
 1. Absent: The taxon does not occur in seeds, but occurs elsewhere.
 1. Coincidental: The taxon occasionally occurs on or in seeds, but only by chance. An example would be organisms deposited by air or rain water. 
 2. Opportunistic: The taxon can associate with seeds as part of its life cycle when conditions are favorable. Evolution might select for certain interactions, but selection pressures on plants and the microbial taxon are mostly independent and any symbioses formed are temporary and interchangeable. Such microbes could be opportunistic symbionts, with effects on the host that vary between positive and negative. 
-3. Associated: The microbial taxon is adapted to live on particular plant species, but it evolves independently. Such microbes might be obligate symbionts, but are not vertically transmitted.
+3. Associated: The microbial taxon is adapted to live on particular plant species and often occurs in seeds, but it evolves independently. Such microbes might be obligate symbionts, but are not vertically transmitted.
 4. Integrated: The microbial taxon is effectively vertically transmitted and co-evolves with the plant and selection pressure on the host and the microbes is linked. The lifestyle of these microbes might range from obligate pathogens to mutualists.
-
 
 To classify each taxon into one of these categories, the following hypotheses will be tested:
 
@@ -286,31 +284,31 @@ To classify each taxon into one of these categories, the following hypotheses wi
 3. Associated: The taxon occurs in a subset of seeds and the similarity/occurrence of communities of the taxon in seeds correlate with both environment and host phylogeny.
 4. Integrated: The taxon occurs in nearly all seeds and the similarity/occurrence of communities of the taxon in seeds correlate with host phylogeny, but not environment.
 
-
-
-### Broader impacts
-
+Any taxa that shown distribution patterns consistent with the "Integrated" hypothesis would be candidates for coevolving symbionts.
+Further research would be needed to verify such findings.
 
 ### Methods
 
 #### Sampling summary
 
-Since extended cultivation and breeding under conditions of high nutrient input are thought to potentially interfere with plant-symbiont interactions, seeds of wild plants will be sampled instead of domesticated crops [@salvagiotti2008nitrogen; @johnson1993can].
-If an adaptive seed microbiome is found in wild plants, then it is likely that such associations can be bred into cultivated plants, even if a history of chemical-intensive agriculture has disrupted such associations in the past [@vandenkoornhuyse2015importance].
-Also, much less research has been done on the seed microbiome of wild plants compared to domesticated plants.
+Since extended cultivation and breeding under conditions of high nutrient input are thought to potentially interfere with plant-symbiont interactions, seeds of wild plants will be studied instead of domesticated crops [@salvagiotti2008nitrogen; @johnson1993can].
+If an adaptive seed microbiome is found in wild plants, then it is likely that such associations can be bred into cultivated plants, even if domestication has disrupted such associations in the past [@vandenkoornhuyse2015importance; @perez2017linking].
+In addition, much less research has been done on the seed microbiome of wild plants compared to domesticated plants.
 Therefore, the proposed study will sample wild populations of plants instead of domesticated plants.
 
 Seeds will be collected directly from wild plants instead of relying on seeds stores in seeds banks, such as those from Forestry Service breeding programs, because many endophytes in seeds are known to become non-viable in long term storage [@cankar2005bacterial].
 Also, such seeds were likely surface sterilized and there is evidence that many seed-associated microbes reside on the seed coat [@boursnell1950symbiotic; @bose1947hereditary; @bloomberg1966occurrence].
 Additionally the intensive use of artificial fertilizers, pesticides, or auxin to induce premature seed formation interfere with the natural colonization and preservation of endophytes in stored seeds.
-Therefore, seeds will be collected directly from the mother plant an frozen shortly afterwards to get the most accurate representation possible of seed-endophyte evolution in a natural setting.
+Therefore, seeds will be collected directly from the parent plant and frozen shortly afterwards to get the most accurate representation possible of seed-endophyte evolution in a natural setting.
 
-Two major groups of plants will be sampled from two LTER sites: Conifers in the HJ Andrews forest in Oregon and grasses in the Konza prairie in Kansas.
-These two groups of organisms were chosen because they are evolutionary quite distinct and grasses are known to harbor important endophytes, whereas little is known about the conifer seed microbiome.
+Two major groups of plants will be sampled from two LTER sites: Conifers in the HJ Andrews forest in Oregon and poaceae species in the Konza prairie in Kansas.
+These two groups of organisms were chosen because they are evolutionary quite distinct, poaceae species are known to harbor important endophytes, and little is known about the conifer seed microbiome.
 They also have much different reproductive cycle durations, so if a evidence for a coevolving seed microbiome is found in both, it would suggest other seed plants might as well.
+Although the long reproductive cycle of conifers might make vertical transmission of endophytes via seed less likely, the paucity of information on the endophytes of conifer seeds makes any information on their seed endophytes useful.
 At each site, 10 species of plant will be sampled, but only the 9 most successfully sampled species from each site will be used in the final analysis.
 For each species, 8 plants will be sampled, each at a different part of the site.
 For each plant sampled, 4 individual seeds will be collected and a mixture of 40 seeds.
+Sequencing individual seeds will give information on whether an endophyte occurs throughout the plant and the bulk sample will have a greater chance of detecting rare endophytes.
 The will result in a total of `r sites` x `r species` x `r trees` x `r seeds` = `r sites * species * trees * seeds` samples analyzed.
 
 
@@ -322,23 +320,24 @@ Seasonal times of seed maturity were determined using species reviews in the USD
 All species typically produce mature seeds between August and October, with the majority maturing in September.
 The conifer species typically produce large numbers of cones in intervals of 1-4 years, with little cone production in intervening years. 
 This poses a challenge to collecting cones from all species in a single year and makes it unlikely that all species can be sampled over a short period of time.
-Grass species selected are all warm-season grasses that produce seeds yearly between July and September, depending on the weather.
-This makes it likely that all grasses can be sampled in a single season.
+Poaceae species selected are all warm-season poaceae species that produce seeds yearly between July and September, depending on the weather.
+This makes it likely that all poaceae species can be sampled in a single season.
 Due to the complexity of sampling multiple species with potentially differing times of seed maturation, it is assumed that it might not be possible to sample all 10, so only the 9 from each group that are sampled most completely will be used for the final analysis.
 
 Conifers: *Tsuga heterophylla*, *Tsuga mertensiana*, *Abies amabilis*, *Abies procera*, *Abies grandis*, *Pseudotsuga menziesii*, *Picea engelmannii*, *Pinus monticola*, *Thuja plicata*, *Calocedrus decurrens*, *Taxus brevifolia*
 
-Grasses: *Andropogon gerardii*, *Sorghastrum nutans*, *Sporobolus compositus*, *Sporobolus heterolepis*, *Schizachyrium scoparium*, *Bouteloua curtipendula*, *Panicum virgatum*, *Koeleria macrantha*, *Eragrostis spectabilis*, *Elymus canadensis*
+Poaceae species: *Andropogon gerardii*, *Sorghastrum nutans*, *Sporobolus compositus*, *Sporobolus heterolepis*, *Schizachyrium scoparium*, *Bouteloua curtipendula*, *Panicum virgatum*, *Koeleria macrantha*, *Eragrostis spectabilis*, *Elymus canadensis*
 
 
 #### Site and plant selection
 
 Sites to sampled will be selected to strike a balance between maximizing environmental heterogeneity among sites and maximizing number of target species present per site.
-Differences in environment is needed to differentiate between differential selection of microbes from the environment versus an adaptive seed microbiome. 
+Differences in environment is needed to differentiate between differential selection of microbes from the environment versus coevolving seed microbiome. 
 By contrast, having many target species in the same site allows for environment to be controlled, in order to best detect differences in community structure that correlate to plant type, whatever their cause.
 
 Sampling sites at HJ Andrews will be selected ahead of time using existing pre-existing datasets containing tree species and locations in research plots.
 Sampling sites at Konza will be randomly selected from a larger set of sites along one or more random transects that meet the site criteria described above.
+In both cases, official personnel working at the LTER sites will consulted on the best times and places to collect seed.
 
 #### Seed collection techniques
 
@@ -354,7 +353,7 @@ Only cones that do not contact the ground will be used, in order to minimize con
 When possible, cones from each cardinal direction will be sampled and placed in a bag for each direction sampled.
 A single seed will be collected from each cardinal direction and placed individually in small ziplock bags.
 Up to ten seeds from each direction will then be extracted and bulked together per tree, for a total of 40 seeds per tree.
-Therefore each tree will have 4 individual seeds from each cardinal direction and a single bulked sample. 
+Therefore each tree will have 4 individual seeds from each cardinal direction and a single bulked sample of 40 seeds. 
 All seeds will be frozen within 24 hours of collection.
 
 Grass seedheads will be collected in a way analogous way to cones in conifers.
@@ -372,7 +371,7 @@ In the context of the seed, anything outside of the seed, including the surround
 Although it is not possible the fully capture the complexity of the environment, the following aspects will be recorded to approximate environmental differences:
 
 * A sample of tissue near each cone/grasshead and vascular tissue leading to the cone/grasshead will be collected with gloves and bulked per plant. The plant tissue will not be surfaced sterilized, so that microbes that colonize the plant surface from air or precipitation will be present, as well as endophytes.
-* A soil sample will be collected around each plant, composed of four 1x20cm soil cores taken in cardinal directions around the plant and bulked and well mixed by hand before being frozen.
+* A soil sample will be collected around each plant, composed of four 1x20cm soil cores taken in cardinal directions around the plant and bulked and well mixed before being frozen.
 * The elevation, slope, aspect of the slope, and convexity of the landscape will be recorded for each plant by recording the GPS locations of plants sampled and comparing it to topographic data.
 * Statistics summarizing weather in the two years preceding the time each plant was sampled will be looked up from public databases. This will only be relevant if all plants cannot be sampled in the same year. A two year period was chosen since some of the conifer species take two years to produce mature cones.  
 
@@ -391,7 +390,7 @@ Negative PCR controls will be used for all reactions, in addition to the negativ
 Multiple identical mock community samples composed of a mixture known bacterial, fungal, and oomycete DNA extracts will also be amplified with each reaction as a positive control and in order to asses errors rates of sequence identification and relative abundance.   
 For each LTER site, `r species * trees * seeds` seed PCR products will be sequenced with `r seed_neg_dna_controls` negative DNA extraction controls, `r seed_neg_pcr_controls` negative PCR controls, and `r seed_mock_controls` mock community samples, divided into four 96-well plates containing such that each plate contains an equal number of samples and controls.
 All of the seed samples and associated controls will be sequenced on a single MiSeq run for each LTER site.
-Similarly, all plant tissue and soil samples will be sequenced on a single MiSeq run, together with 4 negative DNA extraction controls, 4 negative PCR controls, and four mock communities, for each LTER site.
+Similarly, all plant tissue and soil samples will be sequenced on a single MiSeq run, together with four negative DNA extraction controls, four negative PCR controls, and four mock communities, for each LTER site.
 Overall `r samples_sequenced` samples will be sequenced on four 300bp paired-end miseq runs.
 
 
@@ -401,7 +400,7 @@ A selection of genes useful for phylogenetic reconstruction of each of the two g
 Such genes will likely include LFY and NLY for conifers [@lu2014phylogeny] and matK and ndhF for poaceae [@soreng2015worldwide].
 A multiple sequence alignment will be made for each gene and a maximum likelihood phylogeny will be inferred using RAxML [@stamatakis2014raxml] using a nucelotide substitution model determined using jModelTest2 [@darriba2012jmodeltest]. 
 A pairwise distance matrix for each gene will be made by calculating the of the sum of the branch lengths connecting every pair of species in the phylogeny.
-This method of calculating phylogenetic distance was chosen because it is conceptually very similar to how the microbial community distance matrix will be calculated using the Unifrac method [@lozupone2005unifrac].
+This method of calculating phylogenetic distance was chosen because it is conceptually very similar to how the microbial community distance matrix will be calculated using the UniFrac method [@lozupone2005unifrac].
 Finally the overall phylogenetic distance matrix will be made by taking the average of the per-gene distance matrices.
 This will be the phylogenetic distance matrix that will be compared with the microbiome and environmental distance matrices.
 
@@ -409,39 +408,56 @@ This will be the phylogenetic distance matrix that will be compared with the mic
 #### Environmental distance estimation
 
 A biotic distance matrix and an abiotic distance matrix will be used to estimate how similar the environmental conditions are at each plant sampled and an overall environmental distance matrix will be derived from them.
-The abiotic distance matrix will be constructed by calculating the euclidean distance of the z-scores for the variables such as the elevation, slope, aspect of the slope, convexity of the land, and weather when the plant was sampled.
-The biotic distance matrix will be the bray-Curtis dissimilarity of the entire microbial communities found in the plant and soil samples.
+The abiotic distance matrix will be constructed by calculating the euclidean distance of the z-scores for the variables such as the elevation, slope, aspect of the slope, convexity of the land, and recent weather if applicable.
+The biotic distance matrix will be the weighted UniFrac distance of the entire microbial communities found in the plant and soil samples.
 The overall environmental distance matrix will be a weighted average of the biotic and abiotic matrices.
-Since it is unknown what the relative importance of the biotic and abiotic environment is in structuring the seed microbiome, the relative influence of each on the average will be inferred from the data.
-Since there are only two matrices to be averaged, the relative weight is a single parameter: a number between 0 and 1, where 0 or 1 indicates only one matrix is used, and 0.5 indicates they are both weighted equally.
-The weighting parameter used will be the value that optimizes the correlation between the resulting envrionmental distance matrix and a bray-Curtis distance matrix of the total seed microbial communities.
-Therefore, the environmental distance matrix used to test the hypotheses will be the combination of the biotic and abiotic environmental distance matrices that correlates with the seed microbial communities best. 
+Since it is unknown what the relative importance of the biotic and abiotic environment is in structuring the seed microbiome, the relative influence of each on the average will be inferred from the seed community data collected.
+Since there are only two matrices to be averaged, the relative weight is a single parameter: a number between 0 and 1, where 0 or 1 indicates only one matrix is used and 0.5 indicates they are both weighted equally.
+The weighting parameter used will be the value that optimizes the correlation between the resulting environmental distance matrix and a weighted UniFrac distance matrix of the total seed microbial communities.
+Therefore, the environmental distance matrix used to test the hypotheses will be the combination of the biotic and abiotic environmental distance matrices that best correlates with the seed microbial communities. 
 
 
-#### Metabarcoding data preparation
+#### Metabarcoding data analysis
 
-The entire data analysis, from raw MiSeq reads to publication figures, will be conducted in R using a powerful desktop computer.
 Sequence quality filtering, inference of Amplified sequence variants (ASVs), read merging, chimera removal, and taxonomy assignment will be done using the R package `dada2`.
-The reference databases UNITE (for fungi), Greengenes (for bacteria), and OomyceteDB (for oomycetes) will be used to assign a taxonomy to ASVs. 
-This will result in an abundance matrix of ASVs per sample.
+The reference databases UNITE (for fungi), Greengenes (for bacteria), and OomyceteDB (for oomycetes) will be used to assign a taxonomy to ASVs using the RDP Naive Bayesian Classifier [@wang2007naive]. 
+This will result in an abundance matrix of ASVs per sample with an associated taxonomic assignment, bootstrapped for each taxonomic rank.
 Standard ecological metrics of diversity such alpha and beta diversity will be calculated for each sample and grouping of samples (e.g. plant species) using the R package `vegan`.
-General data manipulation and plotting of data will be done use the R packages `dplyr`, `ggplot2`, `taxa`, and `metacoder`, among others.  
+Weighted UniFrac distance matrices will be calculated with the `phyloseq` package.
+General data manipulation and plotting of data will be done use the R packages `dplyr`, `ggplot2`, `taxa`, and `metacoder`, among others.
 
 #### Hypothesis testing
 
 
-Maximum likelihood 
-For the community of each taxon, the following tests will be conducted:
+For the community of each taxon, the following tests will be conducted to determine if the patterns of its occurrence are consistent with coevolution with its host.
+Since there are multiple independent hypothesis tests, their p-values will need to be adjusted for multiple comparisons.
 
-* 
+* A matrix of weighted UniFrac distances for the taxon communities in plants will be calculated using the `vegan` package.
+* A partial Mantel test [@legendre2012numerical] will be conducted to test for a correlation between the taxon community distance matrix and the host phylogenetic distance matrix, while accounting for environmental differences using the environmental distance matrix. This will determine whether the taxon community composition correlates with host phylogeny.
+* A partial Mantel test will be conducted to test for a correlation between the taxon community distance matrix and the environmental distance matrix, while accounting for phylogenetic differences using the phylogenetic distance matrix. This will determine whether the taxon community composition correlates with environment.
+* The number of seeds/plants that the taxon community occurs in will be calculated.
+* Based on the results of the above tests, the taxon with be assigned one of the categories presented previously in the hypotheses section of this proposal.
 
-Differential taxon abundance will be calculated using the `DESeq2` package.
+If the taxon community composition correlates with host phylogeny, but not environment, and occurs in nearly all seeds/plants, its occurrence patterns will be consistent with coevolution with its host. 
+Such taxa would be prime candidates for future research that could have important implications for the understanding of seed plant biology.
 
+
+#### Secondary analyses
+
+Even if no evidence of coevolving taxa is found, the data set resulting from this work would be very useful since little is known about seed microbiomes.
+The alpha diversity measurements for each species will determine how much seed endophytes diversity varies within plant, plant species and sites and beta diversity measures will reveal how much it varies within.
+Indicator species analysis will be used to see if any particular endophytes are associated with any particular plant species or sites.
+Differential taxon abundance analysis using the `DESeq2` package [@love2014moderated] will determine which taxa differentiate plant species and site.
+Species lists of bacteria, fungi, and oomycetes will be generated for two LTER sites that will be useful for future research.
+This will be one of the few metabarcoding studies to include oomycetes, and one of the few to target multiple kingdoms of microorganisms simultaneously
+There would be potential to observe cross-kingdom cooccurrence and interaction not possible with most ecological datasets. 
 
 #### Reproducibility
 
-All analysis code will be written in Rmarkdown in such a way that the entire analysis, from raw reads to publication figures, can be run with a single command.
-The resulting output will take the form of a website and be publicly available, hosted using the free service GitHub Pages.  
+The entire data analysis, from raw MiSeq reads to publication figures, will be conducted in R using a powerful desktop computer.
+All analysis code will be written in Rmarkdown in such a way that the entire analysis, from raw reads to publication figures, can be run with a single command using only open source software.
+The resulting output will take the form of a website and be publicly available, hosted using the free service GitHub Pages.
+Any publications derived from this work will be published as open access and all data will be publicly available on Open Science Framework [@foster2017open].
 
 \newpage
 
@@ -505,9 +521,10 @@ pcr_kit_cost <- 525
 #### Sequencing
 
 
-* Nextera XT DNA Library Preparation Kit (96) x `r ceiling(samples_sequenced / 96)`: `r ceiling(samples_sequenced / 96) * 2943`
+* Nextera XT DNA Library Preparation Kit (96) x `r ceiling(samples_sequenced / 96)`: \$`r ceiling(samples_sequenced / 96) * 2943`
 * Nextera XT Index Kit x 4:  \$`r 918 * 4`
 * MiSeq reagents and run x4: \$`r 1917 * 4`
+* Sanger sequencing: ~\$5000
 
 #### Konza collecting trip
 
@@ -523,6 +540,12 @@ pcr_kit_cost <- 525
 #### Personnel
 
 * Postdoc salary and benefits: $54,000 x 4 years: $216,000
+
+#### Amount requested
+
+**\$300,000**
+
+\newpage
 
 
 ## References Cited
