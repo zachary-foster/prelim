@@ -72,12 +72,12 @@ Given that mature plants have evolved to encourage beneficial microbes, that the
 If true, this would have important implications for the understanding of seed plant biology and for the treatment of seeds in agriculture.
 
 The primary objective of this proposal is to test for a correlation between the phylogenetic similarity of seed plants and their seed microbiomes, which would be consistent with co-evolution.
-A secondary objective is to characterize the identity, distribution, and diversity of microbes inhabiting seeds of plants in two LTER sites. 
+A secondary objective is to characterize the identity, distribution, and diversity of microbes inhabiting the seeds of plants in two Long Term Ecological Research Network (LTER) sites. 
 This will be done by collecting seeds from natural populations of plants and comparing their phylogenetic relatedness to the phylogenetic similarity of their microbial communities while accounting for environmental differences.
 Seeds will be collected from 10 conifer species in the H.J. Andrews LTER site and 10 poaceae species in the Konza Prairie LTER site.
 DNA extracted from seeds will be used to characterize the phylogenetic relationship of the plants using maximum likelihood and the similarity of their microbiomes using metabarcoding.
 Associated data such as micro-climate and the soil microbiome will be recorded for each plant and used to approximate environmental conditions.
-Finally, partial mantel tests will be used to test for a correlation between the host phylogenetic dissimilarity matrix and the microbiome dissimilarity matrix for each microbial taxon, while accounting for environmental factors using an environmental distance matrix.
+Finally, partial mantel tests will be used to test for a correlation between the host phylogenetic distance matrix and the microbiome distance matrix for each microbial taxon, while accounting for environmental factors using an environmental distance matrix.
 Additional analyses will also be conducted, including taxonomic classification of microbes, calculation of alpha and beta diversity indexes, analysis of differential taxon abundance among plant species, and indicator species analysis.
 
 #### Intellectual merit
@@ -214,7 +214,7 @@ An variable region of a gene conserved in a taxon of interest, flanked by conser
 The variable amplicons are then sequenced using high-throughput sequencing tools, such as the Illumina MiSeq.
 The resulting sequences are compared with reference databases of curated gene sequences of known identity, such as the Greengenes database of 16S sequences for bacteria [@desantis2006greengenes], the UNITE database of ITS sequences for fungi [@abarenkov2010unite], and PR2 database of SSU sequences for protists [@guillou2012protist].
 The proportion of amplicons sequences that match each organism can then be used as an estimate of relative abundance of the gene copies in the sample [@nichols2018minimizing], which somewhat correlates to the abundance of organism in the sample.
-Due to biases caused by differential PCR and sequencing efficiency, the proportion of reads assigned to organisms cannot be used to infer their relative abundance within a sample, it can be used to compare the abundance of organisms between samples to some degree.
+Due to biases caused by differential PCR and sequencing efficiency, the proportion of reads assigned to organisms cannot be used to infer their relative abundance within a sample, but it can be used to compare the abundance of organisms between samples to some degree.
 The primary strength of metabarcoding is its affordability and throughput, allowing for thousands of sequences per sample and hundreds of samples.
 Although metabarcoding has its own set of biases, especially when used to estimate the relative abundance of organisms, it is an incredibly sensitive technique that circumvents the limits of culturability and has already revolutionized the understanding of microbial diversity.
 
@@ -258,9 +258,9 @@ The study proposed here is designed to address this question.
 ### Specific aims
 
 1. Determine which, if any, microbial taxa show patterns of occurrence and similarity in conifer and grass seeds that are consistent with long-term coevolution with their host.
-1. Determine the relative influence of individual plant, plant species and environment on the composition of microbial communities in individual conifer and grass seeds, including unculturable microbes and microbes on the seed coat.
+1. Determine the relative influence of individual plant, plant species, and environment on the composition of microbial communities in individual conifer and grass seeds, including unculturable microbes and microbes on the seed coat.
 1. Characterize the microbial diversity associated with individual conifer seeds and grass seeds, including unculturable microbes and microbes on seed coat.
-1. Create lists of bacterial, fungal, and oomycete taxa potentially present in two Long Term Ecological Research Network (LTER) sites that can inform future research and conservation practices.
+1. Create lists of bacterial, fungal, and oomycete taxa potentially present in two LTER sites that can inform future research and conservation practices.
 
 ### Hypotheses
 
@@ -299,12 +299,12 @@ Therefore, the proposed study will sample wild populations of plants instead of 
 
 Seeds will be collected directly from wild plants instead of relying on seeds stores in seeds banks, such as those from Forestry Service breeding programs, because many endophytes in seeds are known to become non-viable in long term storage [@cankar2005bacterial].
 Also, such seeds were likely surface sterilized and there is evidence that many seed-associated microbes reside on the seed coat [@boursnell1950symbiotic; @bose1947hereditary; @bloomberg1966occurrence].
-Additionally the intensive use of artificial fertilizers, pesticides, or auxin to induce premature seed formation interfere with the natural colonization and preservation of endophytes in stored seeds.
+Additionally the intensive use of artificial fertilizers, pesticides, or auxin to induce premature seed formation might interfere with the natural colonization and preservation of endophytes in stored seeds.
 Therefore, seeds will be collected directly from the parent plant and frozen shortly afterwards to get the most accurate representation possible of seed-endophyte evolution in a natural setting.
 
 Two major groups of plants will be sampled from two LTER sites: Conifers in the HJ Andrews forest in Oregon and poaceae species in the Konza prairie in Kansas.
 These two groups of organisms were chosen because they are evolutionary quite distinct, poaceae species are known to harbor important endophytes, and little is known about the conifer seed microbiome.
-They also have much different reproductive cycle durations and ecology, so if a evidence for a coevolving seed microbiome is found in both, it would suggest other seed plants might have it as well.
+They also have much different reproductive cycle durations and ecology, so if evidence for a coevolving seed microbiome is found in both, it would suggest other seed plants might have it as well.
 Although the long reproductive cycle of conifers might make vertical transmission of endophytes via seed less likely, the paucity of information on the endophytes of conifer seeds makes any information on their seed endophytes useful.
 At each site, 10 species of plant will be sampled, but only the 9 most successfully sampled species from each site will be used in the final analysis.
 For each species, 8 plants will be sampled, each at a different part of the site.
@@ -446,7 +446,7 @@ Such taxa would be prime candidates for future research that could have importan
 #### Secondary analyses
 
 Even if no evidence of coevolving taxa is found, the data set resulting from this work would be very useful since little is known about seed microbiomes.
-The alpha diversity measurements for each species will determine how much seed endophytes diversity varies within plant, plant species and sites and beta diversity measures will reveal how much it varies within.
+The alpha diversity measurements for each species will determine how much seed endophytes diversity varies within plant, plant species and site and beta diversity measures will reveal how much it varies within.
 Indicator species analysis will be used to see if any particular endophytes are associated with any particular plant species or site.
 Differential taxon abundance analysis using the `DESeq2` package [@love2014moderated] will determine which taxa differentiate plant species and site.
 Taxon lists of bacteria, fungi, and oomycetes will be generated for two LTER sites that will be useful for future research.
@@ -455,7 +455,7 @@ There would be potential to observe cross-kingdom cooccurrence and interaction n
 
 #### Reproducibility
 
-The entire data analysis, from raw MiSeq reads to publication figures, will be conducted in R using a powerful desktop computer.
+The entire data analysis will be conducted in R using a powerful desktop computer.
 All analysis code will be written in Rmarkdown in such a way that the entire analysis, from raw reads to publication figures, can be run with a single command using only open source software.
 The resulting output will take the form of a website and be publicly available, hosted using the free service GitHub Pages.
 Any publications derived from this work will be published as open access and all data will be publicly available on Open Science Framework [@foster2017open].
