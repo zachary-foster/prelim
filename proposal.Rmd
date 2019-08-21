@@ -53,6 +53,7 @@ plant_mock_controls <- 4
 
 # The coevolution of plant seeds and their microbiome
 
+Zachary S. L. Foster
 
 \newpage
 
@@ -71,11 +72,11 @@ Given that mature plants have evolved to encourage beneficial microbes, that the
 If true, this would have important implications for the understanding of seed plant biology and for the treatment of seeds in agriculture.
 
 The primary objective of this proposal is to test for a correlation between the phylogenetic similarity of seed plants and their seed microbiomes, which would be consistent with co-evolution.
-A secondary objective is to characterize the identity, distribution, and diversity of microbes inhabiting seeds of plants in two Long Term Ecological Research (LTER) sites. 
+A secondary objective is to characterize the identity, distribution, and diversity of microbes inhabiting seeds of plants in two LTER sites. 
 This will be done by collecting seeds from natural populations of plants and comparing their phylogenetic relatedness to the phylogenetic similarity of their microbial communities while accounting for environmental differences.
 Seeds will be collected from 10 conifer species in the H.J. Andrews LTER site and 10 poaceae species in the Konza Prairie LTER site.
 DNA extracted from seeds will be used to characterize the phylogenetic relationship of the plants using maximum likelihood and the similarity of their microbiomes using metabarcoding.
-Associated data such as soil nutrients, micro-climate, and the soil microbiome will be recorded for each plant and used to approximate environmental conditions.
+Associated data such as micro-climate and the soil microbiome will be recorded for each plant and used to approximate environmental conditions.
 Finally, partial mantel tests will be used to test for a correlation between the host phylogenetic dissimilarity matrix and the microbiome dissimilarity matrix for each microbial taxon, while accounting for environmental factors using an environmental distance matrix.
 Additional analyses will also be conducted, including taxonomic classification of microbes, calculation of alpha and beta diversity indexes, analysis of differential taxon abundance among plant species, and indicator species analysis.
 
@@ -102,14 +103,14 @@ Recent research into the microbiomes of plants and animals has revealed an amazi
 The vast majority of these microbes appear to be commensal or mutualistic with their host, contrary to previous assumptions, leading many researchers to reevaluate the relative importance of mutualism and antagonism in regards to the functioning and evolution of organisms.
 Some have suggested that the combination of a host and its core microbiome is better thought of as a single entity, referred to as a "holobiont", rather than a collection of independent organisms [@mendes2011deciphering; @boursnell1950symbiotic; @vandenkoornhuyse2015importance; @berg2018saving; @sagan1967origin].
 This holobiont model of organismal biology has led many to reevaluate the best ways of maximizing the health of people and the productivity of crops [@berg2018saving].
-In human medicine, a field that once considered sterility the ultimate good, a diverse gut and skin microbiota is now considered essential to overall health, as is evidenced by the success of probiotic supplements and fecal transplants in combating certain diseases and the adverse effects of antibiotics.
-In agriculture, diversity in soils communities and the management of mutualistic microbes is now considered by many to be preferable to relying on sterile soils, pesticides, and chemical fertilizers.
+In human medicine, a field that once considered sterility the ultimate good, a diverse gut and skin microbiota is now considered essential to overall health [@markowiak2017effects], as is evidenced by the success of probiotic supplements and fecal transplants in combating certain diseases and the adverse effects of antibiotics [@millan2016fecal].
+In agriculture, diversity in soil communities and the management of mutualistic microbes is now considered by many to be preferable to relying on sterile soils, pesticides, and chemical fertilizers.
 However, perhaps the most important discovery at this point is that previous biological concepts have vastly underestimated the complexity of ecological interactions.
 Understanding to what extent groups of symbiotic organisms are interdependent and linked in an evolutionary sense is critical to modeling the effect of current practices on human health and crop productivity.
 
-Perhaps the most direct and understandable way that a host and its microbiome could become integrated evolutionary is through stable vertical transmission of microbes from one generation to the next.
-In humans, and presumably other animals, this is thought to be facilitated by passage through the birth canal inoculating the skin and breast milk feeding inoculating the digestive track.
-If a similar process occurs in seed plants, then seeds and fruits would be the vector by which mutualistic microbes could be maintained across generations.  
+Perhaps the most direct and understandable way that a host and its microbiome could become integrated evolutionarily is through stable vertical transmission of microbes from one generation to the next.
+In humans, and presumably other animals, this is thought to be facilitated by passage through the birth canal inoculating the skin and breast milk feeding inoculating the digestive track [@blaser2016human].
+If a similar process occurs in seed plants, then seeds and fruits would be the vector by which mutualistic microbes could be maintained across generations.
 In order for an adaptive seed microbiome that is maintained through vertical transmission to be likely, the following phenomena must exist:
 
 * Microbes associated with plants must provide some benefit to plant fitness.
@@ -123,12 +124,11 @@ The following sections provide evidence that each of these processes do occur in
 
 #### Microbial symbionts can promote plant fitness
 
-It has been long accepted that specific kinds of microbes benefit specific kinds of plants, such as mycorrhizae in land plants enhancing minerals and water absorption [@miller2000arbuscular], rhizobia in legumes providing fixed nitrogen [@salvagiotti2008nitrogen], and clavicipitaceous endophytes in grasses providing defenses against drought, herbivores, and salt stress [@clay1990fungal].
-Arbuscular mycorrhiza are thought to have been integral to survival and evolution of land plants, and that relationship has been maintained for 500 million years in the vast majority of plants [@pirozynski1975origin].
+It has been long accepted that specific kinds of microbes benefit specific kinds of plants, such as mycorrhizae in land plants enhancing mineral and water absorption [@miller2000arbuscular], rhizobia in legumes providing fixed nitrogen [@salvagiotti2008nitrogen], and clavicipitaceous endophytes in grasses providing defenses against drought, herbivores, and salt stress [@clay1990fungal].
+Arbuscular mycorrhiza are thought to have been integral to survival and evolution of land plants and that relationship has been maintained for 500 million years in the vast majority of plants [@pirozynski1975origin].
 For some species of plants, the microbes they have evolved with are so important that attempts at moving these plants to new habitats without the associated microbes have often been unsuccessful [@vandenkoornhuyse2015importance]. 
-In a study in which endophyte-free *Theobroma cacao* seedlings were inoculated with symbionts isolated from a natural population of *Theobroma cacao*, at least 50% less seedling mortality was observed after challenging the seedlings with a *Phytophthora* species [@arnold2003fungal].
 In one experiment on the effect of an *Acremonium* (the anamorph of *Epichloë*) endophyte on drought resistance in the grass tall fescue, 75% of plants without the endophyte died from drought while all of the endophyte-infected plants survived [@arachevaleta1989effect].
-In another experiments evaluating the effects of an *Acremonium* endophytes in rye grass on weevil herbivory, endophyte-infected plants were avoided by weevils when uninfected plants were available and less eaten when infected plants were the only food available [@barker1984effect1].
+In another experiment evaluating the effects of *Acremonium* endophytes in rye grass on weevil herbivory, endophyte-infected plants were avoided by weevils when uninfected plants were available and less eaten when infected plants were the only food available [@barker1984effect1].
 When weevils laid eggs in both grass types, 55% of larvae survived to the fourth instar on uninfected grass, but none survived on the infected grass [@barker1984effect2].
 In a different experiment, the feeding and development of fall armyworms was reduced by the presence of endophytes [@hardy1985fall].
 Such endophyte infections in rye grass and fescue were also found to increase seed set and germination in some cases [@clay1987effects].
@@ -136,24 +136,25 @@ Similarly, the ascomycete *Rhabdocline parkeri* was found to inhibit larval matu
 Considering that the vast majority of the microbiome and its importance was unknown just decades ago, these iconic examples are probably just a few representatives of a much larger set of mutualisms yet to be discovered.
 
 Recent microbiome research in seed plants suggests these type of mutualisms are more common than previously thought.
-Many studies suggest that the microbes most commonly detected are in genera known to contain beneficial microbes, such as *Bacillus*, *Streptomyces*, *Pseudomonas*, and *Burkholdaria* [@lopez2011endophytic; ; ].
+Many studies suggest that the microbes most commonly detected are in genera known to contain beneficial microbes, such as *Bacillus*, *Streptomyces*, *Pseudomonas*, and *Burkholdaria* [@lopez2011endophytic].
 A study of the bacterial endophytes of the cactus *Mammillaria fraileana* found an isolate of *Azotobacter vinelandii* that fixed nitrogen ~17 more effectively than the positive control strain *Azospirillum brasilense* [@lopez2011endophytic].
 The same study found other endophytes that were able to solubilize phosphorus and weather rock particles *in vitro*.
 The combination of nitrogen fixation, phosphorus solubilization and rock weathering by root endophytes are thought to be the reason this cactus can grow on bare rock [@puente2009rock].
-
+In a study in which endophyte-free *Theobroma cacao* seedlings were inoculated with symbionts isolated from a natural population of *Theobroma cacao*, at least 50% less seedling mortality was observed after challenging the seedlings with a *Phytophthora* species [@arnold2003fungal].
+These studies are some of the first to apply modern culture-independent techniques to this subject and more are likely to follow with similar results.
 
 #### Plant genotype influences microbiome composition
 
 Many studies suggest that the genotype of plants has an effect on the composition of their microbiomes, especially as an interaction with environmental factors, although the effect of environment alone is usually greater [@vandenkoornhuyse2015importance].
-This greater effect of environment on the entire microbial community does not preclude the possibility that specific members of the microbiome are more influenced by genotype [@lundberg2012defining], as would be expected of important and coevolving symbionts, since these studies typically analyze the microbiome as whole and do not examine each taxon individually.
+This greater effect of environment on the entire microbial community does not preclude the possibility that specific members of the microbiome are more influenced by genotype [@lundberg2012defining], as would be expected of important and coevolving symbionts, since these studies typically analyze the microbiome as a whole and do not examine each taxon individually.
 An effect of any size of genotype on the community as a whole indicates that the composition of the community is a heritable trait [@peiffer2013diversity] that can influence plant evolution to the degree that the identity of symbiotic  microbes has an effect on plant fitness.
 The classical examples of mycorrhizal fungi aiding in phosphorus absorption and rhizobia aiding in nitrogen fixation indicate that specific members can have a large effect, even if most members of the microbiome of these plants are transient and incidental.
 
-Many studies on agricultural plants indicate that even cultivar-level differences in genotype can have significant effects on the composition of the microbiome.
+Many studies of agricultural plants indicate that even cultivar-level differences in genotype can have significant effects on the composition of the microbiome.
 A study on the microbiome of tomato seeds indicated that the two cultivars studied had different microbial communities when grown in controlled conditions in the same soil [@bergna2018tomato].
 Also, the similarity of seed endophytes in 5 species of maize and 4 of its wild relative teosinte were found to correlate with the relatedness of the host plant, suggesting coevolution [@johnston2011conservation].
 A similar result was found when comparing the bacterial rhizobiome of wild and cultivated varieties of the common bean *Phaseolus vulgaris* [@perez2017linking].
-Another experiment in which two cultivars of maize and its presumed closest relative teosinte were grown on three different soils found that the type of maize grown had a greater effect on TRFLP profiles of root and shoot bacterial communities [@johnston2014impact].
+Another experiment in which two cultivars of maize and teosinte were grown on three different soils found that the type of maize grown had a greater effect on terminal restriction fragment length polymorphism profiles of root and shoot bacterial communities [@johnston2014impact].
 The microbiome composition of seeds of the Styrian oil pumpkin (*Cucurbita pepo*) were found to be strongly influenced by genotype [@adam2018cucurbita].
 Similarly, the microbiome composition of seeds of rapeseed (*Brassica napus*) differed among cultivars and correlated with differences in the effects of inoculations with pathogens and potential symbionts [@rybakova2017structure].
 These and other similar studies suggest that intraspecific genotypic differences can have an effect on the microbial community of the entire plant, including the seeds.  
@@ -169,13 +170,13 @@ Many researchers of grass endophytes believe the endophytes like *Epichloë*  in
 A recent study of bacterial vertical transmission in tomato found that at least three beneficial bacteria species were preserved over two generations via seed [@bergna2018tomato].
 Another recent study found that a core seed microbiome of at least 8 fungi and bacteria was maintained over three generations of radish, although most of the microbiome was variable [@rezki2018assembly].
 A study of vertical transmission of endophytes in rice found that endophytes present in surface-sterilized seeds were present throughout developing seedlings that were grown in sterile nutrient agar [@kaga2009rice].
-Seeds of a wide variety of maize and its wild relative were also found to contain endophytes a set of endophytes conserved among these species which likely diverged over 8,000 years ago and the assemblage of endophytes seemed to correlate to relatedness of the hos species, suggesting coevolution [@johnston2011conservation].
-Finally, a study in which maize was grown in different soils from unsterilized seed, found that a large portion of the community showed patterns of vertically transmission [@johnston2014impact].
+Seeds from multiple varieties of maize and its wild relatives were found to contain a conserved set of endophytes even though the varieties likely diverged over 8,000 years ago and the assemblage of endophytes seemed to correlate to relatedness of the the host genotype, suggesting coevolution [@johnston2011conservation].
+Finally, a study in which maize was grown in different soils from unsterilized seed found that a large portion of the community showed patterns of vertical transmission [@johnston2014impact].
 
 #### Endophytes of grasses
 
 There is a long history of research confirming the presence and benefit of endophytes in grasses, as was described in a previous section [@arachevaleta1989effect; @barker1984effect1; @barker1984effect2; @clay1987effects].
-In particular the association of the ascomycete fungus *Epichloë* (teleomorph of *Acremonium*) with the grasses in the *Lolium* and *Festuca* genera has been well studied.
+In particular, the association of the ascomycete fungus *Epichloë* (teleomorph of *Acremonium*) with the grasses in the *Lolium* and *Festuca* genera has been well studied.
 *Epichloë* is vertically transmitted by seed and can infect entire populations of grass [@clay1990fungal].
 The presence of *Epichloë* in tall fescue has been shown experimentally to increase plant utilization of nitrogen and significantly increase drought resistance [@arachevaleta1989effect].
 Common pasture grass seem almost reliant on such endophytes, to the extent that attempts to plant endophyte-free pastures sometimes fail, and many varieties of commercial grass seed are intentionally inoculated with *Epichloë* [@clay1990fungal].
@@ -183,22 +184,22 @@ Common pasture grass seem almost reliant on such endophytes, to the extent that 
 #### Endophytes of conifers
 
 Much less research has been done on conifer seed endophytes.
-Most of the research that has been done was based on culturing from surface-sterilized seeds, so the results will likely vastly underestimate the true diversity of microbes that could be vertically-transmitted.
-@newcombe2018hypothetical reports 41% of seeds collected from *Pinus ponderosa* and *Larix occidentalis* contained one or more endophytes, as determined by culturing surfaced-sterilized seeds on PDA.
-@ganley2006fungal found 16 isolates in 800 surface-sterilized seeds of *Pinus monticola* using culturing on PDA with antibiotics that selected for fungi.
+Most of the research that has been done was based on culturing from surface-sterilized seeds, so the results will likely vastly underestimate the true diversity of microbes that could be present.
+One study reports 41% of seeds collected from *Pinus ponderosa* and *Larix occidentalis* contained one or more endophytes, as determined by culturing surfaced-sterilized seeds on PDA [@newcombe2018hypothetical].
+Another found 16 isolates in 800 surface-sterilized seeds of *Pinus monticola* using culturing on PDA with antibiotics that selected for fungi [@ganley2006fungal].
 Putatively beneficial *Pseudomonas* and *Rahnella* isolates were found in the seeds of 3 out of 4 trees of *Picea abies* and confirmed by PCR [@cankar2005bacterial].
 A survey of Douglas Fir seeds collected by the US forest service revealed that all seeds had fungal endophytes and 80% of healthy seedlings contained fungi [@bloomberg1966occurrence]. 
 Many seeds contained *Trichoderma viride*, a microbe now used in commercial biocontrol against a wide range of pathogens [@zhihui2008utilization], but was not at the time of the study.
-Considering the limits of the culture-based techniques used in many of these studies, these results suggest that microbes in the seeds of conifers might be common.  
+Considering the limits of the culture-based techniques used in many of these studies, these results suggest that microbes in the seeds of conifers might be common, but more research using culture-independent techniques will be needed.  
 
 #### Metabarcoding can circumvent the limitations of past research
 
-Much research in seed microbes has concluded that many, if not most, plant species have few microbes in their seeds.
+Contrary to the examples provided above, many studies on seed microbes have concluded that many, if not most, plant species have few microbes in their seeds.
 However, such observations would be expected even if that was not true due to the reliance on culturing to detect microbes.
 Any microbes that are tightly integrated with their plant host are unlikely to be culturable, such as obligate pathogens or symbionts.
 It is estimated that only 0.3% of prokaryotes in soil are culturable [@schleifer2004microbial] and it is likely that obligate symbionts are culturable at even lower rates.
 In a study that examined the seed endophytes of the cactus *Mammillaria fraileana*, no bacteria could be cultured, even after researchers tried many different growth media.
-However a culture-independent techniques used on the same seeds, fluorescent vital staining, indicated that there were at least one million live bacterial cells per gram of live seed tissue [@lopez2011endophytic]. 
+However a culture-independent technique used on the same seeds, fluorescent vital staining, indicated that there were at least one million live bacterial cells per gram of live seed tissue [@lopez2011endophytic]. 
 Therefore, studies that rely on culturing microbes from seeds in axenic conditions cannot be used to effectively test for the presence of such microbes or their effect on plant fitness.
 Additionally, the number of culturable microbes present in seeds decreases in storage [@cankar2005bacterial], so studies that culture microbes from seeds stored in seed banks or from commercial sources will likely underestimate endophyte diversity and abundance.
 Many studies do not report how long seeds were stored between collection and culturing and that information is even less available when the seeds are bought from commercial or government seeds banks.
@@ -233,7 +234,7 @@ The force of natural selection on all the constituent organisms in a holobiont i
 Groups in which each member cooperates and specializes in a specific task are favored by natural selection over groups that are less integrated.
 This is similar to how division of labor in human societies leads to increased efficiency. 
 Examples of this are numerous, yet rarely regarded as such.
-As previously stated, every eukaryote is a holobiont: a mutualistic association between various archaea and prokaryotes in the form of cell walls, nuclei, mitochondria, and chloroplasts, among others.
+As previously stated, every eukaryote is a holobiont: a mutualistic association between archaea and prokaryotes in the form of cell walls, nuclei, mitochondria, and chloroplasts, among others.
 Members of this association are so specialized and cooperate so well that they were not even recognized as being separate until recently [@sagan1967origin].
 Lichens are holobionts composed of algae and fungi.
 In the lichens whose photobiont is a green algae, they are holobionts descended from a combination of holobionts.
@@ -257,32 +258,32 @@ The study proposed here is designed to address this question.
 ### Specific aims
 
 1. Determine which, if any, microbial taxa show patterns of occurrence and similarity in conifer and grass seeds that are consistent with long-term coevolution with their host.
-1. Determine the relative influence of individual plant, plant species and environment on the composition of bacterial, fungal, and oomycete communities in individual conifer and grass seeds, including unculturable microbes and microbes on the seed coat.
-1. Characterize the bacterial, fungal, and oomycete diversity associated with individual conifer seeds and grass seeds, including unculturable microbes and microbes on seed coat.
-1. Create lists of bacterial, fungal, and oomycete taxa potentially present in two LTER sites that can inform future research and conservation practices.
+1. Determine the relative influence of individual plant, plant species and environment on the composition of microbial communities in individual conifer and grass seeds, including unculturable microbes and microbes on the seed coat.
+1. Characterize the microbial diversity associated with individual conifer seeds and grass seeds, including unculturable microbes and microbes on seed coat.
+1. Create lists of bacterial, fungal, and oomycete taxa potentially present in two Long Term Ecological Research Network (LTER) sites that can inform future research and conservation practices.
 
 ### Hypotheses
 
 The relationship between each member of the microbiome and the host plant will be different, but likely related to its evolutionary history.
-Therefore, this study will attempt to classify each microbial group found into a set of lifestyles corresponding to hypotheses about the patterns of such lifestyles might exhibit.
+Therefore, this study will attempt to classify each group of related microbes found into a set of lifestyles based on their occurance patterns.
 Ideally, the groupings of microbes used would be every clade in a true phylogeny of these organisms, but since the exact phylogenetic placement of many microbes is still debated and fragmentary, taxonomy will be used as an approximation of phylogeny.
 Every taxon found, at all taxonomic ranks, will be tested for patterns consistent with coevolution with its host.
-For example, at the highest rank of the taxonomy (cellular life) the entire microbiome will be analyzed and at the lowest rank, individual species are analyzed.
+For example, at the highest rank of the taxonomy (cellular life) the entire microbiome will be analyzed and at the lowest rank, individual species will be analyzed.
 For any given microbial taxon, the following lifestyles are possible in regards to seeds:
 
-1. Absent: The taxon does not occur in seeds, but occurs elsewhere.
-1. Coincidental: The taxon occasionally occurs on or in seeds, but only by chance. An example would be organisms deposited by air or rain water. 
-2. Opportunistic: The taxon can associate with seeds as part of its life cycle when conditions are favorable. Evolution might select for certain interactions, but selection pressures on plants and the microbial taxon are mostly independent and any symbioses formed are temporary and interchangeable. Such microbes could be opportunistic symbionts, with effects on the host that vary between positive and negative. 
-3. Associated: The microbial taxon is adapted to live on particular plant species and often occurs in seeds, but it evolves independently. Such microbes might be obligate symbionts, but are not vertically transmitted.
-4. Integrated: The microbial taxon is effectively vertically transmitted and co-evolves with the plant and selection pressure on the host and the microbes is linked. The lifestyle of these microbes might range from obligate pathogens to mutualists.
+1. **Absent**: The taxon does not occur in seeds, but occurs elsewhere.
+1. **Coincidental**: The taxon occasionally occurs on or in seeds, but only by chance. An example would be organisms deposited by air or rain. 
+2. **Opportunistic**: The taxon can associate with seeds as part of its life cycle when conditions are favorable. Evolution might select for certain interactions, but selection pressures on plants and the microbial taxon are mostly independent and any symbioses formed are temporary and interchangeable. Such microbes could be opportunistic symbionts, with effects on the host that vary between positive and negative. 
+3. **Associated**: The microbial taxon is adapted to live on particular plant species and often occurs in seeds, but it evolves independently. Such microbes might be obligate symbionts, but are not vertically transmitted reliably.
+4. **Integrated**: The microbial taxon is effectively vertically transmitted and co-evolves with the plant and selection pressure on the host and the microbes is linked. The lifestyle of these microbes might range from obligate pathogens to mutualists.
 
 To classify each taxon into one of these categories, the following hypotheses will be tested:
 
-1. Absent: The taxon does not occur in seeds, but occurs in environmental samples or other plant tissue.
-1. Coincidental: The taxon occurs in a subset of seeds and the similarity/occurrence of communities of the taxon in seeds do not correlate with environment or host phylogeny. 
-2. Opportunistic: The taxon occurs in a subset of seeds and the similarity/occurrence of communities of the taxon in seeds correlate with environment, but not host phylogeny.
-3. Associated: The taxon occurs in a subset of seeds and the similarity/occurrence of communities of the taxon in seeds correlate with both environment and host phylogeny.
-4. Integrated: The taxon occurs in nearly all seeds and the similarity/occurrence of communities of the taxon in seeds correlate with host phylogeny, but not environment.
+1. **Absent**: The taxon does not occur in seeds, but occurs in environmental samples or other plant tissue.
+1. **Coincidental**: The taxon occurs in a subset of seeds and the similarity/occurrence of communities of the taxon in seeds do not correlate with environment or host phylogeny. 
+2. **Opportunistic**: The taxon occurs in a subset of seeds and the similarity/occurrence of communities of the taxon in seeds correlates with environment, but not host phylogeny.
+3. **Associated**: The taxon occurs in a subset of seeds and the similarity/occurrence of communities of the taxon in seeds correlates with both environment and host phylogeny.
+4. **Integrated**: The taxon occurs in nearly all seeds and the similarity/occurrence of communities of the taxon in seeds correlates with host phylogeny, but not environment.
 
 Any taxa that shown distribution patterns consistent with the "Integrated" hypothesis would be candidates for coevolving symbionts.
 Further research would be needed to verify such findings.
@@ -303,7 +304,7 @@ Therefore, seeds will be collected directly from the parent plant and frozen sho
 
 Two major groups of plants will be sampled from two LTER sites: Conifers in the HJ Andrews forest in Oregon and poaceae species in the Konza prairie in Kansas.
 These two groups of organisms were chosen because they are evolutionary quite distinct, poaceae species are known to harbor important endophytes, and little is known about the conifer seed microbiome.
-They also have much different reproductive cycle durations, so if a evidence for a coevolving seed microbiome is found in both, it would suggest other seed plants might as well.
+They also have much different reproductive cycle durations and ecology, so if a evidence for a coevolving seed microbiome is found in both, it would suggest other seed plants might have it as well.
 Although the long reproductive cycle of conifers might make vertical transmission of endophytes via seed less likely, the paucity of information on the endophytes of conifer seeds makes any information on their seed endophytes useful.
 At each site, 10 species of plant will be sampled, but only the 9 most successfully sampled species from each site will be used in the final analysis.
 For each species, 8 plants will be sampled, each at a different part of the site.
@@ -314,28 +315,28 @@ The will result in a total of `r sites` x `r species` x `r trees` x `r seeds` = 
 
 #### Species targeted
 
-Species to be studied were selected based on abundance at their respective LTER sites, abundance of seed production, similarity of seasonal times of seed maturity, and a range of inter-species taxonomic similarity.
+Species to be studied were selected based on abundance at their respective LTER sites, abundance of seed production, similarity of seasonal times of seed maturity, and a range of interspecific taxonomic similarity.
 Abundance of species at the study sites were determined using publicly available datasets describing the LTER sites to be sampled [@mckee2001vascular; @shaw2001long; @hartnet2019plant].
 Seasonal times of seed maturity were determined using species reviews in the USDA Fire Effects Information System (FEIS) database [@tesky1992tsuga1; @tesky1992tsuga2; @cope1992abies; @cope1993abies; @cope2000abies; @uchytil1991pseudotsuga; @uchytil1991picea; @griffith1992picea; @tesky1992thuja; @tollefson1992calocedrus; @tirmenstein1990taxus; @uchytil1988andropogon; @walkup1991sorgastrum; @walkup2010sporobolus; @steinberg2002schizachyrium; @chadwick2003bouteloua; @simonin2000koeleria; @snyder1992sporobolus; @simonin2000elymus].
 All species typically produce mature seeds between August and October, with the majority maturing in September.
 The conifer species typically produce large numbers of cones in intervals of 1-4 years, with little cone production in intervening years. 
 This poses a challenge to collecting cones from all species in a single year and makes it unlikely that all species can be sampled over a short period of time.
-Poaceae species selected are all warm-season poaceae species that produce seeds yearly between July and September, depending on the weather.
+Poaceae species selected are all warm-season grasses that produce seeds yearly between July and September, depending on the weather.
 This makes it likely that all poaceae species can be sampled in a single season.
 Due to the complexity of sampling multiple species with potentially differing times of seed maturation, it is assumed that it might not be possible to sample all 10, so only the 9 from each group that are sampled most completely will be used for the final analysis.
 
-Conifers: *Tsuga heterophylla*, *Tsuga mertensiana*, *Abies amabilis*, *Abies procera*, *Abies grandis*, *Pseudotsuga menziesii*, *Picea engelmannii*, *Pinus monticola*, *Thuja plicata*, *Calocedrus decurrens*, *Taxus brevifolia*
+**Conifer species**: *Tsuga heterophylla*, *Tsuga mertensiana*, *Abies amabilis*, *Abies procera*, *Abies grandis*, *Pseudotsuga menziesii*, *Picea engelmannii*, *Pinus monticola*, *Thuja plicata*, *Calocedrus decurrens*, *Taxus brevifolia*
 
-Poaceae species: *Andropogon gerardii*, *Sorghastrum nutans*, *Sporobolus compositus*, *Sporobolus heterolepis*, *Schizachyrium scoparium*, *Bouteloua curtipendula*, *Panicum virgatum*, *Koeleria macrantha*, *Eragrostis spectabilis*, *Elymus canadensis*
+**Poaceae species**: *Andropogon gerardii*, *Sorghastrum nutans*, *Sporobolus compositus*, *Sporobolus heterolepis*, *Schizachyrium scoparium*, *Bouteloua curtipendula*, *Panicum virgatum*, *Koeleria macrantha*, *Eragrostis spectabilis*, *Elymus canadensis*
 
 
 #### Site and plant selection
 
 Sites to sampled will be selected to strike a balance between maximizing environmental heterogeneity among sites and maximizing number of target species present per site.
-Differences in environment is needed to differentiate between differential selection of microbes from the environment versus coevolving seed microbiome. 
+Differences in environment is needed to differentiate between differential selection of microbes from the environment versus a coevolving seed microbiome. 
 By contrast, having many target species in the same site allows for environment to be controlled, in order to best detect differences in community structure that correlate to plant type, whatever their cause.
 
-Sampling sites at HJ Andrews will be selected ahead of time using existing pre-existing datasets containing tree species and locations in research plots.
+Sampling sites at HJ Andrews will be selected ahead of time using existing datasets containing tree species and locations in research plots.
 Sampling sites at Konza will be randomly selected from a larger set of sites along one or more random transects that meet the site criteria described above.
 In both cases, official personnel working at the LTER sites will consulted on the best times and places to collect seed.
 
@@ -356,7 +357,7 @@ Up to ten seeds from each direction will then be extracted and bulked together p
 Therefore each tree will have 4 individual seeds from each cardinal direction and a single bulked sample of 40 seeds. 
 All seeds will be frozen within 24 hours of collection.
 
-Grass seedheads will be collected in a way analogous way to cones in conifers.
+Grass seedheads will be collected in a way analogous to cones in conifers.
 Four seedheads per grass cluster will be collected and put in individual bags.
 Later, on same day as collections, seeds will be extracted using sterile forceps.
 A single seed will be collected from each head and placed individually in small ziplock bags.
@@ -376,7 +377,7 @@ Although it is not possible the fully capture the complexity of the environment,
 * Statistics summarizing weather in the two years preceding the time each plant was sampled will be looked up from public databases. This will only be relevant if all plants cannot be sampled in the same year. A two year period was chosen since some of the conifer species take two years to produce mature cones.  
 
 Plant tissue and soil samples will be subjected to metabarcoding in the same way as seeds, except they will be allowed more sequencing space to characterize their more complex communities effectively. 
-Aspects relating to climate will not be considered, since this is assumed to be effectively the same withing each LTER site during the study period and the two LTER sites are not being compared to each other.
+Aspects relating to climate will not be considered, since this is assumed to be effectively the same withing each LTER site during the study period and the two LTER sites will not be compared to each other.
 
 
 #### Metabarcoding
@@ -388,10 +389,10 @@ Each DNA extract will be used in three different PCR reactions to amplify: the V
 The products of these three reactions will then be pooled per-sample in the following proportions: 50%, 40%, 10% for bacteria, fungi, and oomycetes respectively, so the sequencing effort roughly corresponds to expected organismal diversity.
 Negative PCR controls will be used for all reactions, in addition to the negative DNA extraction controls to help determine the source and content of any contamination that might occur.
 Multiple identical mock community samples composed of a mixture known bacterial, fungal, and oomycete DNA extracts will also be amplified with each reaction as a positive control and in order to asses errors rates of sequence identification and relative abundance.   
-For each LTER site, `r species * trees * seeds` seed PCR products will be sequenced with `r seed_neg_dna_controls` negative DNA extraction controls, `r seed_neg_pcr_controls` negative PCR controls, and `r seed_mock_controls` mock community samples, divided into four 96-well plates containing such that each plate contains an equal number of samples and controls.
+For each LTER site, `r species * trees * seeds` seed PCR products will be sequenced with `r seed_neg_dna_controls` negative DNA extraction controls, `r seed_neg_pcr_controls` negative PCR controls, and `r seed_mock_controls` mock community samples, divided into four 96-well plates such that each plate contains an equal number of samples and controls.
 All of the seed samples and associated controls will be sequenced on a single MiSeq run for each LTER site.
-Similarly, all plant tissue and soil samples will be sequenced on a single MiSeq run, together with four negative DNA extraction controls, four negative PCR controls, and four mock communities, for each LTER site.
-Overall `r samples_sequenced` samples will be sequenced on four 300bp paired-end miseq runs.
+Similarly, all plant tissue and soil samples will be sequenced on a single MiSeq run, together with 4 negative DNA extraction controls, 4 negative PCR controls, and 4 mock communities, for each LTER site.
+Overall, `r samples_sequenced` samples will be sequenced on four 300bp paired-end miseq runs.
 
 
 #### Phylogenetic distance estimation
@@ -419,12 +420,12 @@ Therefore, the environmental distance matrix used to test the hypotheses will be
 
 #### Metabarcoding data analysis
 
-Sequence quality filtering, inference of Amplified sequence variants (ASVs), read merging, chimera removal, and taxonomy assignment will be done using the R package `dada2`.
+Sequence quality filtering, inference of Amplified Sequence Variants (ASVs), read merging, chimera removal, and taxonomy assignment will be done using the R package `dada2` [@callahan2016dada2].
 The reference databases UNITE (for fungi), Greengenes (for bacteria), and OomyceteDB (for oomycetes) will be used to assign a taxonomy to ASVs using the RDP Naive Bayesian Classifier [@wang2007naive]. 
 This will result in an abundance matrix of ASVs per sample with an associated taxonomic assignment, bootstrapped for each taxonomic rank.
-Standard ecological metrics of diversity such alpha and beta diversity will be calculated for each sample and grouping of samples (e.g. plant species) using the R package `vegan`.
-Weighted UniFrac distance matrices will be calculated with the `phyloseq` package.
-General data manipulation and plotting of data will be done use the R packages `dplyr`, `ggplot2`, `taxa`, and `metacoder`, among others.
+Standard ecological metrics of diversity such alpha and beta diversity will be calculated for each sample and grouping of samples (e.g. plant species) using the R package `vegan` [@oksanen2007vegan].
+Weighted UniFrac distance matrices will be calculated with the `phyloseq` package [@mcmurdie2013phyloseq].
+General data manipulation and plotting of data will be done use the R packages `dplyr`, `ggplot2`, `taxa` [@foster2018taxa], and `metacoder` [@foster2017metacoder], among others.
 
 #### Hypothesis testing
 
@@ -438,7 +439,7 @@ Since there are multiple independent hypothesis tests, their p-values will need 
 * The number of seeds/plants that the taxon community occurs in will be calculated.
 * Based on the results of the above tests, the taxon with be assigned one of the categories presented previously in the hypotheses section of this proposal.
 
-If the taxon community composition correlates with host phylogeny, but not environment, and occurs in nearly all seeds/plants, its occurrence patterns will be consistent with coevolution with its host. 
+If the taxon community composition correlates with host phylogeny, but not environment, and occurs in nearly all seeds/plants, then its occurrence pattern will be consistent with coevolution with its host. 
 Such taxa would be prime candidates for future research that could have important implications for the understanding of seed plant biology.
 
 
@@ -446,10 +447,10 @@ Such taxa would be prime candidates for future research that could have importan
 
 Even if no evidence of coevolving taxa is found, the data set resulting from this work would be very useful since little is known about seed microbiomes.
 The alpha diversity measurements for each species will determine how much seed endophytes diversity varies within plant, plant species and sites and beta diversity measures will reveal how much it varies within.
-Indicator species analysis will be used to see if any particular endophytes are associated with any particular plant species or sites.
+Indicator species analysis will be used to see if any particular endophytes are associated with any particular plant species or site.
 Differential taxon abundance analysis using the `DESeq2` package [@love2014moderated] will determine which taxa differentiate plant species and site.
-Species lists of bacteria, fungi, and oomycetes will be generated for two LTER sites that will be useful for future research.
-This will be one of the few metabarcoding studies to include oomycetes, and one of the few to target multiple kingdoms of microorganisms simultaneously
+Taxon lists of bacteria, fungi, and oomycetes will be generated for two LTER sites that will be useful for future research.
+This will be one of the few metabarcoding studies to include oomycetes, and one of the few to target multiple kingdoms of microorganisms simultaneously.
 There would be potential to observe cross-kingdom cooccurrence and interaction not possible with most ecological datasets. 
 
 #### Reproducibility
